@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Document uuid="9e58e6d3-1991-4783-a4aa-a1cdb5e050f6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СообщениеSMS" category="Object">
+				<xr:TypeId>8b3f4518-a7e4-4cdc-9571-faa77d126750</xr:TypeId>
+				<xr:ValueId>65c7b3f9-3cef-4fc3-9e58-3bdc412771fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СообщениеSMS" category="Ref">
+				<xr:TypeId>62302838-7168-4c1d-a7c8-38688e3ccdd7</xr:TypeId>
+				<xr:ValueId>39902bb7-056e-404c-94d1-b0d1cb2dce0c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СообщениеSMS" category="Selection">
+				<xr:TypeId>cd267aba-69ea-4452-9bbe-eac8ce3e8bc5</xr:TypeId>
+				<xr:ValueId>bf12cb71-b6b3-4391-967a-d6224539b8a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СообщениеSMS" category="List">
+				<xr:TypeId>3ef6b222-3e94-458d-9166-384d05ade3d7</xr:TypeId>
+				<xr:ValueId>df479874-1abc-4b84-8e6c-3e4f87dda984</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СообщениеSMS" category="Manager">
+				<xr:TypeId>32918074-b23f-4410-aa8d-015a7de0fbd4</xr:TypeId>
+				<xr:ValueId>f0cfd3bd-0151-4220-ae9d-0cc48c6eb48f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СообщениеSMS</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

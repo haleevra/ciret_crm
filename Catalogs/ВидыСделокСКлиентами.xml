@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="817ffcf8-a359-4b13-bd15-c198c58a020b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыСделокСКлиентами" category="Object">
+				<xr:TypeId>531492fb-2d4c-44b2-8859-51079b3f9e9f</xr:TypeId>
+				<xr:ValueId>2383d220-df7e-42c5-b126-6556dbe80f4a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыСделокСКлиентами" category="Ref">
+				<xr:TypeId>70cc2d1d-0d1d-431c-b37d-8caa4385db9a</xr:TypeId>
+				<xr:ValueId>4ed6020d-6ba5-4678-adc8-89e535719e5e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыСделокСКлиентами" category="Selection">
+				<xr:TypeId>681e3209-0c0e-43b1-89c4-a745ad3be450</xr:TypeId>
+				<xr:ValueId>851b6822-16e7-48e0-a3e5-f1b99609c543</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыСделокСКлиентами" category="List">
+				<xr:TypeId>580496b6-252f-4497-8bc4-34cbd3ce16de</xr:TypeId>
+				<xr:ValueId>46ffced6-faff-488f-b2b6-a587e74506db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыСделокСКлиентами" category="Manager">
+				<xr:TypeId>1da3db15-a94d-4f06-ada3-071d1d28e82d</xr:TypeId>
+				<xr:ValueId>0af3213f-9518-4d58-b184-dc846f457a89</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыСделокСКлиентами</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="9256138d-03ae-427f-876c-64abd18175ef">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ВидыСделокСКлиентами.ЭтапыСделкиПоПродаже" category="TabularSection">
+						<xr:TypeId>95b533c9-4334-40c4-aba6-ebf5836f3c6c</xr:TypeId>
+						<xr:ValueId>4413e9c6-4d43-4a5e-9a3d-dcc795a3c188</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ВидыСделокСКлиентами.ЭтапыСделкиПоПродаже" category="TabularSectionRow">
+						<xr:TypeId>974ecbd1-e271-4475-8fe4-c15fcb2d6f48</xr:TypeId>
+						<xr:ValueId>c303246c-5e92-493a-8212-3e37d7f4aa4f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ЭтапыСделкиПоПродаже</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="a9866c4a-2bef-458d-af1e-f9794084f43f">
+						<Properties>
+							<Name>ЭтапПроцессаПродажи</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СостоянияПроцессов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

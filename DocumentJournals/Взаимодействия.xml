@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<DocumentJournal uuid="9998b382-2e7c-4941-b898-f0f7bb18ad77">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.Взаимодействия" category="Selection">
+				<xr:TypeId>2d46c686-6b8a-419a-9a12-599cb7b69bd3</xr:TypeId>
+				<xr:ValueId>dea13855-e9df-48b3-adbe-436de6b3892f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.Взаимодействия" category="List">
+				<xr:TypeId>a7b1f82d-917b-4fbb-924f-9d0c43e028bd</xr:TypeId>
+				<xr:ValueId>c23881f2-f30b-4a71-9651-f5b8dc890b83</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.Взаимодействия" category="Manager">
+				<xr:TypeId>da96f57c-18e7-4e0e-a044-eb4a10680ced</xr:TypeId>
+				<xr:ValueId>a1ddc8e1-b86c-4b78-99f0-e290c79763ff</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Взаимодействия</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultForm/>
+			<AuxiliaryForm/>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Встреча</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗапланированноеВзаимодействие</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ТелефонныйЗвонок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЭлектронноеПисьмоВходящее</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЭлектронноеПисьмоИсходящее</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СообщениеSMS</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="71c91f8a-6475-479a-8486-43c85bbfb4cd">
+				<Properties>
+					<Name>ЕстьВложения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="ad8e7a3b-ec7f-4edc-8364-4f5c6f521e40">
+				<Properties>
+					<Name>Входящий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="3c159cba-cb96-47cf-a07d-0e39fa7b8370">
+				<Properties>
+					<Name>Размер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="bfe117fd-1e9c-411b-95b9-f7d760160c0f">
+				<Properties>
+					<Name>Участники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="aa302ee7-49e4-4f4c-a103-f77709fdd3ee">
+				<Properties>
+					<Name>СтатусИсходящегоПисьма</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="24171e0e-76a1-49b7-8750-6525a6a45d48">
+				<Properties>
+					<Name>Важность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="e4c5b6dc-57f6-45d7-88a9-749722f55653">
+				<Properties>
+					<Name>ПолученоОтправлено</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="beff5492-3ec5-4567-b9a4-5c41011f6314">
+				<Properties>
+					<Name>Тема</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="046b9856-05f8-4627-ac34-da088d5e60a2">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="64b89d98-095c-47b3-a741-b9e23c68fb11">
+				<Properties>
+					<Name>Автор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="fe37655b-6ea4-4bcd-8ec8-6cb0124d7ddc">
+				<Properties>
+					<Name>УчетнаяЗапись</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

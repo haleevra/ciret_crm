@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Document uuid="74ef8f4a-79b5-4cf0-b82a-ecf0f6bff260">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ТелефонныйЗвонок" category="Object">
+				<xr:TypeId>55f5b10a-5bdb-4434-ad14-e219bd69671f</xr:TypeId>
+				<xr:ValueId>8cd04603-ae74-452d-8b57-811c023f4568</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ТелефонныйЗвонок" category="Ref">
+				<xr:TypeId>6fa3682c-a2f3-4e97-acfc-ee700585a25f</xr:TypeId>
+				<xr:ValueId>d0388ff1-5d66-4128-a23c-23074428bd0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ТелефонныйЗвонок" category="Selection">
+				<xr:TypeId>f34afe00-33c8-495a-9003-3dcfa5e58fbc</xr:TypeId>
+				<xr:ValueId>e289ccae-f685-46f9-bc12-43b18e9bde27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ТелефонныйЗвонок" category="List">
+				<xr:TypeId>2ade678d-4f9a-451d-9fe8-0848abc2776c</xr:TypeId>
+				<xr:ValueId>b7639edf-0894-48ee-9a71-87049b2d0b11</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ТелефонныйЗвонок" category="Manager">
+				<xr:TypeId>828ca5f3-ff5f-4547-ba7f-630a567e4818</xr:TypeId>
+				<xr:ValueId>f9208a7c-5d82-4ee2-bab7-17889ca07108</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТелефонныйЗвонок</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="81ebaeab-065e-4c5e-bd5a-61d48e314e3f">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="292bf7c3-ed00-439d-864f-f4948243adfa">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6776d6de-5a1b-4aa8-8501-3aef86da07c8">
+				<Properties>
+					<Name>Тема</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1024</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f973e778-b6b0-4b45-b3d5-7c6b62e6da26">
+				<Properties>
+					<Name>Важность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВариантыВажностиВзаимодействия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5777bc8c-600d-48ea-9875-54fd3751be27">
+				<Properties>
+					<Name>Входящий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="926bc92d-b659-430b-ac09-ee94b41a891e">
+				<Properties>
+					<Name>АбонентКакСвязаться</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="11097c42-9541-45a8-b72f-e904c9204009">
+				<Properties>
+					<Name>Описание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ff7aec74-7e05-4cd7-9b2c-f7475eeefd77">
+				<Properties>
+					<Name>АбонентКонтакт</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.КонтактВзаимодействия</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6e4800ed-a1e3-47da-a538-c829743b1bdc">
+				<Properties>
+					<Name>Автор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b79f3f0b-e694-4aa9-b53d-ea3d2efaedfc">
+				<Properties>
+					<Name>АбонентПредставление</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1024</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

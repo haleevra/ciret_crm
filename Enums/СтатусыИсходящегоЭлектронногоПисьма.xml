@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="b48e8e31-3d85-44b7-a18f-5bb18e46936f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыИсходящегоЭлектронногоПисьма" category="Ref">
+				<xr:TypeId>970adbe1-b268-45eb-8c2f-a6fbeeabd914</xr:TypeId>
+				<xr:ValueId>947757cd-8404-48ac-873d-b2291a6d2f6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыИсходящегоЭлектронногоПисьма" category="Manager">
+				<xr:TypeId>5da6ec9f-dea9-4ba5-b9e6-5811e6342c89</xr:TypeId>
+				<xr:ValueId>f49292b4-ebc4-45b3-92a0-a18e5372e730</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыИсходящегоЭлектронногоПисьма" category="List">
+				<xr:TypeId>5a3b5203-d7c8-4167-90e4-c4d32e7657db</xr:TypeId>
+				<xr:ValueId>3643899c-c404-4820-9878-5ce09293dea4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыИсходящегоЭлектронногоПисьма</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b514f9e4-f6b1-4651-9a92-5d2157f3de35">
+				<Properties>
+					<Name>Черновик</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="da5578f1-1286-4f4c-97bd-fdba383ca94e">
+				<Properties>
+					<Name>Исходящее</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

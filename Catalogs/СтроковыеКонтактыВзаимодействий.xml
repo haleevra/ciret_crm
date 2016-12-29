@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="4a4211c5-ae5a-411f-b402-4a4fbffece45">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтроковыеКонтактыВзаимодействий" category="Object">
+				<xr:TypeId>602126b2-4541-4f6d-9a2a-e30b74f46cc2</xr:TypeId>
+				<xr:ValueId>bf4f696b-2538-439f-ba6d-8d067013ffdc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтроковыеКонтактыВзаимодействий" category="Ref">
+				<xr:TypeId>5b650889-f3b8-4f7a-8102-8925d2c1dac0</xr:TypeId>
+				<xr:ValueId>71066e45-c4e0-4063-8615-d594392fdd9f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтроковыеКонтактыВзаимодействий" category="Selection">
+				<xr:TypeId>e5c23703-dbd2-42c1-8893-9dd505413bc8</xr:TypeId>
+				<xr:ValueId>7967b8cc-61ab-4fbc-b075-00b611bc6240</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтроковыеКонтактыВзаимодействий" category="List">
+				<xr:TypeId>f8c01f5e-2de8-4435-9f69-44f0fee94313</xr:TypeId>
+				<xr:ValueId>c1358f3a-0d25-489f-881d-23907f496c00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтроковыеКонтактыВзаимодействий" category="Manager">
+				<xr:TypeId>2867c0b6-fa8e-48c4-8165-67da822fcd09</xr:TypeId>
+				<xr:ValueId>c39927c4-9cfb-4fc5-b496-118112ba16f3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтроковыеКонтактыВзаимодействий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

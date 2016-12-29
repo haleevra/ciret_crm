@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<ChartOfCharacteristicTypes uuid="f3c0bf2a-0393-4f3f-a1da-6213e9adb1e0">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.КаналыРекламныхВоздействий" category="Object">
+				<xr:TypeId>87c313e2-6563-469d-b66e-c216a4ce3ec0</xr:TypeId>
+				<xr:ValueId>dc1d511d-aeea-457b-a0e6-6c033b4d825a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.КаналыРекламныхВоздействий" category="Ref">
+				<xr:TypeId>38a8f625-23d3-46f7-8a2b-bc55a518561b</xr:TypeId>
+				<xr:ValueId>73a4eb8a-058a-43cb-a787-067846151706</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.КаналыРекламныхВоздействий" category="Selection">
+				<xr:TypeId>c2da8ac3-50ee-4294-8589-9f05b2e6114a</xr:TypeId>
+				<xr:ValueId>6b97771b-df0d-4538-9809-757d1d7587f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.КаналыРекламныхВоздействий" category="List">
+				<xr:TypeId>10d69d21-d39e-4c46-bb8b-c9de5c182af7</xr:TypeId>
+				<xr:ValueId>070519c8-e74e-4065-8ae2-c303e735217e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.КаналыРекламныхВоздействий" category="Characteristic">
+				<xr:TypeId>1f516863-4607-41a6-a2f2-62004b76ad16</xr:TypeId>
+				<xr:ValueId>5ba9d144-35db-45a1-9299-215f9c4de5cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.КаналыРекламныхВоздействий" category="Manager">
+				<xr:TypeId>135d52d0-0de4-4d5c-9099-8801ccb47273</xr:TypeId>
+				<xr:ValueId>8c7fd7eb-8aa3-47da-af66-f8a4b63c71ed</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КаналыРекламныхВоздействий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+			</Type>
+			<DefaultObjectForm/>
+			<DefaultFolderForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>

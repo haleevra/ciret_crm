@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<AccumulationRegister uuid="a51177ec-9a5a-4da8-ab8d-6f536c0adc76">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ВыручкаИСебестоимостьПродаж" category="Record">
+				<xr:TypeId>a5ade8fb-a879-486b-9f9a-ff367f52ade9</xr:TypeId>
+				<xr:ValueId>445aeec5-b36b-4257-9fb0-87e78c3f0bb3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ВыручкаИСебестоимостьПродаж" category="Manager">
+				<xr:TypeId>97a2b724-cca8-4f48-afac-2696f2197352</xr:TypeId>
+				<xr:ValueId>c68fa992-5d05-4d6f-ad15-e1e3e5322559</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ВыручкаИСебестоимостьПродаж" category="Selection">
+				<xr:TypeId>bf7e0be0-7b4b-4a48-a214-8227a2208d8b</xr:TypeId>
+				<xr:ValueId>998d51d9-2db6-48c5-b7c8-f0c7565ec0b6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ВыручкаИСебестоимостьПродаж" category="List">
+				<xr:TypeId>1e0081ef-59cd-4916-8a17-109488b5125e</xr:TypeId>
+				<xr:ValueId>0ea83eab-6b7f-400e-b331-369686c76d0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ВыручкаИСебестоимостьПродаж" category="RecordSet">
+				<xr:TypeId>5cbff988-6875-49f7-9641-881ece051f38</xr:TypeId>
+				<xr:ValueId>5a331af4-a39f-4270-9e17-e46bee3750c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ВыручкаИСебестоимостьПродаж" category="RecordKey">
+				<xr:TypeId>3c553b3d-e20f-45a5-985e-dfe0271094ad</xr:TypeId>
+				<xr:ValueId>d23c13d8-a2cc-421c-b0a9-47fa15e7892e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВыручкаИСебестоимостьПродаж</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="309f6342-6ebb-4bc3-808f-d10c20b4b358">
+				<Properties>
+					<Name>СуммаВыручки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="ae5a3431-347d-41e7-9fa1-af3a6fb11d93">
+				<Properties>
+					<Name>Себестоимость</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="60055eb6-f177-4a07-b436-2737dc7f3118">
+				<Properties>
+					<Name>Количество</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="d11a8b59-d970-4645-8535-e55ff629b134">
+				<Properties>
+					<Name>АналитикаУчетаПоПартнерам</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлючиАналитикиУчетаПоПартнерам</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="b4a928ee-4125-4d79-9416-24c585e7f318">
+				<Properties>
+					<Name>АналитикаУчетаНоменклатуры</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлючиАналитикиУчетаНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="9b21a3e1-c6b2-42c3-a60c-8133d3160703">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЗакладкиВзаимодействий" category="Object">
+				<xr:TypeId>b13232c2-fdc8-4017-984d-b6694b5214ad</xr:TypeId>
+				<xr:ValueId>263297b6-772e-4321-ad8d-ae985126844f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЗакладкиВзаимодействий" category="Ref">
+				<xr:TypeId>8bc13738-d318-4105-90a4-dcb3e0248aba</xr:TypeId>
+				<xr:ValueId>f1e50709-fc96-42a5-9c67-588e47874c48</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЗакладкиВзаимодействий" category="Selection">
+				<xr:TypeId>3d5f6ad3-d580-4207-9134-22b5faa12b0c</xr:TypeId>
+				<xr:ValueId>22dd2775-40d5-4b43-9002-21af328f01f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЗакладкиВзаимодействий" category="List">
+				<xr:TypeId>ade4ab57-4b58-44f3-b400-4281de5dbd64</xr:TypeId>
+				<xr:ValueId>f31e89b0-e2e8-4c29-9d6c-621889fc7f21</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЗакладкиВзаимодействий" category="Manager">
+				<xr:TypeId>ccdc7dca-62e9-4d0a-a5cb-5fa2a9b84d22</xr:TypeId>
+				<xr:ValueId>c9193d8c-9d23-4bb0-ad0a-3fa560783e8e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗакладкиВзаимодействий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

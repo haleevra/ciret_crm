@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Document uuid="6b337849-c7a8-415b-8156-8247231bbbc6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЭлектронноеПисьмоВходящее" category="Object">
+				<xr:TypeId>46f04ea7-b315-4376-9a8a-827256c247d3</xr:TypeId>
+				<xr:ValueId>1f5972b1-1a20-4dff-bc7b-f4b324c68d8c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЭлектронноеПисьмоВходящее" category="Ref">
+				<xr:TypeId>ab61fe24-4891-417a-aaeb-73d52468ff5b</xr:TypeId>
+				<xr:ValueId>4042c80f-89c4-4b3c-a7d9-ef82f093e3f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЭлектронноеПисьмоВходящее" category="Selection">
+				<xr:TypeId>ecfcd00a-b92c-4a18-a33a-42a97ea0f409</xr:TypeId>
+				<xr:ValueId>f9c633a5-0ebf-406e-89d8-9912324d7d67</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЭлектронноеПисьмоВходящее" category="List">
+				<xr:TypeId>892f0a6a-a98f-4e39-ba64-2cba1dd26b7f</xr:TypeId>
+				<xr:ValueId>d463a106-4b12-4a67-9f67-651a7fded5fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЭлектронноеПисьмоВходящее" category="Manager">
+				<xr:TypeId>c98bef3d-0499-4764-bddb-601ff85127db</xr:TypeId>
+				<xr:ValueId>ad0ce3e9-bf56-48c3-9206-c907336f2fd5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЭлектронноеПисьмоВходящее</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="105d1f65-3627-400a-9392-0937ba4f0b78">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

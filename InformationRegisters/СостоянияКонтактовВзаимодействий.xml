@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<InformationRegister uuid="b8516f54-e354-4a83-b7b6-ffa6e7981267">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияКонтактовВзаимодействий" category="Record">
+				<xr:TypeId>aa66fbbd-7fee-4cbf-9963-9f522ede7c41</xr:TypeId>
+				<xr:ValueId>06188a0e-3227-46bd-b3ee-f0969fb297af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияКонтактовВзаимодействий" category="Manager">
+				<xr:TypeId>8e2f1e71-e399-45f5-8fff-552a3fe3f4ab</xr:TypeId>
+				<xr:ValueId>a58ea7da-f82f-497c-9fb2-ca2f7340ff4a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияКонтактовВзаимодействий" category="Selection">
+				<xr:TypeId>f34bbb14-b369-43da-9381-33887fb90969</xr:TypeId>
+				<xr:ValueId>32f74d30-02a9-47ab-b139-1a9f80568257</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияКонтактовВзаимодействий" category="List">
+				<xr:TypeId>c1af788e-51fe-482a-a257-013bcee2aa76</xr:TypeId>
+				<xr:ValueId>aa527855-4306-4acf-a133-63eebf3aabfb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияКонтактовВзаимодействий" category="RecordSet">
+				<xr:TypeId>7c64452d-f0bf-4ea1-aa57-1f8c0c424d7f</xr:TypeId>
+				<xr:ValueId>c84b6d7d-18a0-4667-a98c-878a328dd5f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияКонтактовВзаимодействий" category="RecordKey">
+				<xr:TypeId>a6cbd88d-e35b-4b97-b221-1847b6a9ea03</xr:TypeId>
+				<xr:ValueId>11471728-f847-41bc-85ac-637230df57a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияКонтактовВзаимодействий" category="RecordManager">
+				<xr:TypeId>8620c363-b35e-4017-99a3-9c84254c9d37</xr:TypeId>
+				<xr:ValueId>74893565-f5f1-4a33-9bab-adcf869a9291</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияКонтактовВзаимодействий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="4c1a4f4c-e377-4ea1-9854-4516ec4f5719">
+				<Properties>
+					<Name>ДатаПоследнегоВзаимодействия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="6d857bd5-e5ee-42c1-811a-9263900552f5">
+				<Properties>
+					<Name>КоличествоНеРассмотрено</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="6c56877e-87d1-4c16-bf0c-b47f0b325b6a">
+				<Properties>
+					<Name>Контакт</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.КонтактВзаимодействия</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

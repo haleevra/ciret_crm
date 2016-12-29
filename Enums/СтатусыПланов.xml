@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="336d5fea-3fff-47cd-aa17-40aea954fa2d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыПланов" category="Ref">
+				<xr:TypeId>33c09e56-d15e-45a1-ac1c-1f5016791597</xr:TypeId>
+				<xr:ValueId>7a8e9c4b-1b8b-4fcc-9eb0-8db7edd05e7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыПланов" category="Manager">
+				<xr:TypeId>dec410e3-2df5-4750-b771-c40eaf3cdea3</xr:TypeId>
+				<xr:ValueId>26d87ac2-4681-4f7d-bd0c-d4cff3a60b85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыПланов" category="List">
+				<xr:TypeId>4dfc8999-3fc5-40a5-99a7-eac64443566a</xr:TypeId>
+				<xr:ValueId>c5982ba2-5651-405d-8305-2cb19fbf335f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыПланов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="31fce4a8-6456-4bdc-8193-38baf252a981">
+				<Properties>
+					<Name>ВПодготовке</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f31d89cb-1063-4964-adda-9644db52d7bb">
+				<Properties>
+					<Name>Утвержден</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="261ca033-8728-471d-9f06-4b1f1dc81f8c">
+				<Properties>
+					<Name>Отменен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6000f251-faf0-47c2-8302-1baf02b54781">
+				<Properties>
+					<Name>НаУтверждении</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

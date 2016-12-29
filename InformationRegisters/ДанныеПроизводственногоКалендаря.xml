@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<InformationRegister uuid="a2777b4c-7275-4471-b02b-1b32b5f72351">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДанныеПроизводственногоКалендаря" category="Record">
+				<xr:TypeId>56da486e-721b-4b1a-a581-b59f9b297558</xr:TypeId>
+				<xr:ValueId>0ad4a784-765b-4888-92a2-1de21e795185</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДанныеПроизводственногоКалендаря" category="Manager">
+				<xr:TypeId>3723b425-89a9-4208-8575-fa97fefeb995</xr:TypeId>
+				<xr:ValueId>2a9c427a-bccf-46e2-a7d2-9d1397a1d6b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДанныеПроизводственногоКалендаря" category="Selection">
+				<xr:TypeId>bd28b94d-2304-4bd5-9971-c648c788e3ae</xr:TypeId>
+				<xr:ValueId>ed97d44e-f7bc-4223-9e20-7058273f6ea1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДанныеПроизводственногоКалендаря" category="List">
+				<xr:TypeId>2a82dd74-bf9b-4638-8adc-eeed82766cdd</xr:TypeId>
+				<xr:ValueId>d384eca5-7a02-4a18-838e-7a024d400308</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДанныеПроизводственногоКалендаря" category="RecordSet">
+				<xr:TypeId>8be5c6ff-416b-4ffb-b477-37d12d1b7925</xr:TypeId>
+				<xr:ValueId>ba1fd0ff-7cb1-44f7-91a0-412e9f35aec5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДанныеПроизводственногоКалендаря" category="RecordKey">
+				<xr:TypeId>af32b177-893a-494f-8c7a-962366ef0b9d</xr:TypeId>
+				<xr:ValueId>a6186928-5404-4203-b3d8-eba71987a595</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДанныеПроизводственногоКалендаря" category="RecordManager">
+				<xr:TypeId>9cec2cc3-a115-41b6-885a-612a164f0e49</xr:TypeId>
+				<xr:ValueId>0641a37d-6aac-42be-98d9-93e18aeb5bdf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДанныеПроизводственногоКалендаря</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="d7315b3b-3d2b-44b4-bac7-2b066d4279a9">
+				<Properties>
+					<Name>Дата</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

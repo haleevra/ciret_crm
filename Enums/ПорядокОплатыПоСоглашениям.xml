@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="80b151a6-c560-4c34-b966-6ceb337ffa75">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокОплатыПоСоглашениям" category="Ref">
+				<xr:TypeId>58c7db10-07b0-4bbc-94e5-fb9a639cd247</xr:TypeId>
+				<xr:ValueId>6d1f47d8-2a0b-4b62-937c-7a19920a898e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокОплатыПоСоглашениям" category="Manager">
+				<xr:TypeId>761dac88-adf9-4d69-b6f8-d266af0900ca</xr:TypeId>
+				<xr:ValueId>bc06193d-a68b-4daa-9f3b-94f6a7a122fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокОплатыПоСоглашениям" category="List">
+				<xr:TypeId>d87c32d5-6dde-4949-8eac-1dc769172bde</xr:TypeId>
+				<xr:ValueId>42d9029b-11bf-452d-bcf1-0e3986c2b114</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядокОплатыПоСоглашениям</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

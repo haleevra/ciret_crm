@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Наименование</dataPath>
+			<field>Наименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Артикул</dataPath>
+			<field>Артикул</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Описание</dataPath>
+			<field>Описание</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маркетинговое описание</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Марка</dataPath>
+			<field>Марка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Бренд</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>VKE</dataPath>
+			<field>VKE</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Sales Unit Quantity (VKE)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>PU2</dataPath>
+			<field>PU2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Quantity (PU2)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>PU</dataPath>
+			<field>PU</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Quantity (PU)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Помещение</dataPath>
+			<field>Помещение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Характеристика</dataPath>
+			<field>Характеристика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Назначение</dataPath>
+			<field>Назначение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Серия</dataPath>
+			<field>Серия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>CountryOfOriginCode</dataPath>
+			<field>CountryOfOriginCode</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Country of origin code</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>SKULanguageCode</dataPath>
+			<field>SKULanguageCode</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>SKU-Language code</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Sort</dataPath>
+			<field>Sort</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Sort</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Размеры</dataPath>
+			<field>Размеры</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Размеры</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>APG</dataPath>
+			<field>APG</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>APG</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Class</dataPath>
+			<field>Class</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Class</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>CalculatedPriceEUR</dataPath>
+			<field>CalculatedPriceEUR</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Calculated price (KEK) EUR</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Inventory</dataPath>
+			<field>Inventory</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Inventory</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>CalculatedPrice</dataPath>
+			<field>CalculatedPrice</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Calculated price (KEK)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>SubstitutesExist</dataPath>
+			<field>SubstitutesExist</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Substitutes exist</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Blocked</dataPath>
+			<field>Blocked</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Blocked</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>PurchOrderDisposition</dataPath>
+			<field>PurchOrderDisposition</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Purch order disposition</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>NewGoods</dataPath>
+			<field>NewGoods</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>New goods</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>DiscontinuedGoods</dataPath>
+			<field>DiscontinuedGoods</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Discontinued goods</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ClosedForSale</dataPath>
+			<field>ClosedForSale</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Closed for sale</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Фото</dataPath>
+			<field>Фото</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фото</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеАктивна</dataPath>
+			<field>НеАктивна</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не активна</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Цена</dataPath>
+			<field>Цена</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбаКаталога</dataPath>
+			<field>ОбаКаталога</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оба каталога</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	СпрНоменклатура.Артикул КАК Артикул,
+	СпрНоменклатура.Ссылка КАК Наименование,
+	СпрНоменклатура.Описание КАК Описание,
+	СпрНоменклатура.Марка КАК Марка,
+	СпрНоменклатура.PU КАК PU,
+	СпрНоменклатура.PU2 КАК PU2,
+	СпрНоменклатура.VKE КАК VKE,
+	ЦеныНоменклатурыРуб.Цена КАК CalculatedPrice,
+	ЦеныНоменклатурыEUR.Цена КАК CalculatedPriceEUR,
+	ТоварыНаСкладахОстатки.ВНаличииОстаток КАК Inventory,
+	СпрНоменклатура.APG КАК APG,
+	ВЫБОР
+		КОГДА СпрНоменклатура.Blocked = ИСТИНА
+			ТОГДА "Yes"
+		ИНАЧЕ "No"
+	КОНЕЦ КАК Blocked,
+	СпрНоменклатура.Class КАК Class,
+	ВЫБОР
+		КОГДА СпрНоменклатура.ClosedForSale = ИСТИНА
+			ТОГДА "Yes"
+		ИНАЧЕ "No"
+	КОНЕЦ КАК ClosedForSale,
+	СпрНоменклатура.CountryOfOriginCode КАК CountryOfOriginCode,
+	ВЫБОР
+		КОГДА СпрНоменклатура.DiscontinuedGoods = ИСТИНА
+			ТОГДА "Yes"
+		ИНАЧЕ "No"
+	КОНЕЦ КАК DiscontinuedGoods,
+	ВЫБОР
+		КОГДА СпрНоменклатура.NewGoods = ИСТИНА
+			ТОГДА "Yes"
+		ИНАЧЕ "No"
+	КОНЕЦ КАК NewGoods,
+	ВЫБОР
+		КОГДА СпрНоменклатура.PurchOrderDisposition = ИСТИНА
+			ТОГДА "Yes"
+		ИНАЧЕ "No"
+	КОНЕЦ КАК PurchOrderDisposition,
+	СпрНоменклатура.SKULanguageCode КАК SKULanguageCode,
+	СпрНоменклатура.Sort КАК Sort,
+	ВЫБОР
+		КОГДА СпрНоменклатура.SubstitutesExist = ИСТИНА
+			ТОГДА "Yes"
+		ИНАЧЕ "No"
+	КОНЕЦ КАК SubstitutesExist,
+	СпрНоменклатура.Размеры КАК Размеры,
+	СпрНоменклатура.Ссылка.ФайлКартинки КАК Фото
+ИЗ
+	(ВЫБРАТЬ
+		Номенклатура.Артикул КАК Артикул,
+		Номенклатура.Наименование КАК Наименование,
+		Номенклатура.Описание КАК Описание,
+		Номенклатура.Марка КАК Марка,
+		УпаковкиЕдиницыИзмеренияPU.Числитель КАК PU,
+		УпаковкиЕдиницыИзмеренияPU2.Числитель КАК PU2,
+		УпаковкиЕдиницыИзмеренияVKE.Числитель КАК VKE,
+		Номенклатура.Ссылка КАК Ссылка,
+		НоменклатураДополнительныеРеквизитыAPG.Значение КАК APG,
+		НоменклатураДополнительныеРеквизитыBlocked.Значение КАК Blocked,
+		НоменклатураДополнительныеРеквизитыClass.Значение КАК Class,
+		НоменклатураДополнительныеРеквизитыClosedForSale.Значение КАК ClosedForSale,
+		НоменклатураДополнительныеРеквизитыCountryOfOriginCode.Значение КАК CountryOfOriginCode,
+		НоменклатураДополнительныеРеквизитыDiscontinuedGoods.Значение КАК DiscontinuedGoods,
+		НоменклатураДополнительныеРеквизитыNewGoods.Значение КАК NewGoods,
+		НоменклатураДополнительныеРеквизитыPurchOrderDisposition.Значение КАК PurchOrderDisposition,
+		НоменклатураДополнительныеРеквизитыSKULanguageCode.Значение КАК SKULanguageCode,
+		НоменклатураДополнительныеРеквизитыSort.Значение КАК Sort,
+		НоменклатураДополнительныеРеквизитыSubstitutesExist.Значение КАК SubstitutesExist,
+		НоменклатураДополнительныеРеквизитыРазмеры.Значение КАК Размеры,
+		НоменклатураДополнительныеРеквизитыНеАктивна.Значение КАК НеАктивна,
+		НоменклатураДополнительныеРеквизиты.Значение КАК ОбаКаталога
+	ИЗ
+		Справочник.Номенклатура КАК Номенклатура
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.УпаковкиЕдиницыИзмерения КАК УпаковкиЕдиницыИзмеренияPU
+			ПО Номенклатура.Ссылка = УпаковкиЕдиницыИзмеренияPU.Владелец
+				И (УпаковкиЕдиницыИзмеренияPU.Наименование = "PU")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.УпаковкиЕдиницыИзмерения КАК УпаковкиЕдиницыИзмеренияPU2
+			ПО Номенклатура.Ссылка = УпаковкиЕдиницыИзмеренияPU2.Владелец
+				И (УпаковкиЕдиницыИзмеренияPU2.Наименование = "PU2")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.УпаковкиЕдиницыИзмерения КАК УпаковкиЕдиницыИзмеренияVKE
+			ПО Номенклатура.Ссылка = УпаковкиЕдиницыИзмеренияVKE.Владелец
+				И (УпаковкиЕдиницыИзмеренияVKE.Наименование = "VKE")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыРазмеры
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыРазмеры.Ссылка
+				И (НоменклатураДополнительныеРеквизитыРазмеры.Свойство.Заголовок = "Размеры")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыSubstitutesExist
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыSubstitutesExist.Ссылка
+				И (НоменклатураДополнительныеРеквизитыSubstitutesExist.Свойство.Заголовок = "SubstitutesExist")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыNewGoods
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыNewGoods.Ссылка
+				И (НоменклатураДополнительныеРеквизитыNewGoods.Свойство.Заголовок = "NewGoods")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыDiscontinuedGoods
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыDiscontinuedGoods.Ссылка
+				И (НоменклатураДополнительныеРеквизитыDiscontinuedGoods.Свойство.Заголовок = "DiscontinuedGoods")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыPurchOrderDisposition
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыPurchOrderDisposition.Ссылка
+				И (НоменклатураДополнительныеРеквизитыPurchOrderDisposition.Свойство.Заголовок = "PurchOrderDisposition")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыAPG
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыAPG.Ссылка
+				И (НоменклатураДополнительныеРеквизитыAPG.Свойство.Заголовок = "APG")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыSort
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыSort.Ссылка
+				И (НоменклатураДополнительныеРеквизитыSort.Свойство.Заголовок = "Sort")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыSKULanguageCode
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыSKULanguageCode.Ссылка
+				И (НоменклатураДополнительныеРеквизитыSKULanguageCode.Свойство.Заголовок = "SKULanguageCode")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыCountryOfOriginCode
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыCountryOfOriginCode.Ссылка
+				И (НоменклатураДополнительныеРеквизитыCountryOfOriginCode.Свойство.Заголовок = "CountryOfOriginCode")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыClass
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыClass.Ссылка
+				И (НоменклатураДополнительныеРеквизитыClass.Свойство.Заголовок = "Class")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыBlocked
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыBlocked.Ссылка
+				И (НоменклатураДополнительныеРеквизитыBlocked.Свойство.Заголовок = "Blocked")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыClosedForSale
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыClosedForSale.Ссылка
+				И (НоменклатураДополнительныеРеквизитыClosedForSale.Свойство.Заголовок = "ClosedForSale")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизитыНеАктивна
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизитыНеАктивна.Ссылка
+				И (НоменклатураДополнительныеРеквизитыНеАктивна.Свойство.Заголовок = "Не активна")
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура.ДополнительныеРеквизиты КАК НоменклатураДополнительныеРеквизиты
+			ПО Номенклатура.Ссылка = НоменклатураДополнительныеРеквизиты.Ссылка
+				И (НоменклатураДополнительныеРеквизиты.Свойство.Заголовок = "Оба каталога")
+	
+	СГРУППИРОВАТЬ ПО
+		Номенклатура.Артикул,
+		Номенклатура.Наименование,
+		Номенклатура.Описание,
+		Номенклатура.Марка,
+		УпаковкиЕдиницыИзмеренияPU.Числитель,
+		УпаковкиЕдиницыИзмеренияPU2.Числитель,
+		УпаковкиЕдиницыИзмеренияVKE.Числитель,
+		Номенклатура.Ссылка,
+		НоменклатураДополнительныеРеквизитыAPG.Значение,
+		НоменклатураДополнительныеРеквизитыBlocked.Значение,
+		НоменклатураДополнительныеРеквизитыClass.Значение,
+		НоменклатураДополнительныеРеквизитыClosedForSale.Значение,
+		НоменклатураДополнительныеРеквизитыCountryOfOriginCode.Значение,
+		НоменклатураДополнительныеРеквизитыDiscontinuedGoods.Значение,
+		НоменклатураДополнительныеРеквизитыNewGoods.Значение,
+		НоменклатураДополнительныеРеквизитыPurchOrderDisposition.Значение,
+		НоменклатураДополнительныеРеквизитыSKULanguageCode.Значение,
+		НоменклатураДополнительныеРеквизитыSort.Значение,
+		НоменклатураДополнительныеРеквизитыSubstitutesExist.Значение,
+		НоменклатураДополнительныеРеквизитыРазмеры.Значение,
+		НоменклатураДополнительныеРеквизитыНеАктивна.Значение,
+		НоменклатураДополнительныеРеквизиты.Значение) КАК СпрНоменклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ТоварыНаСкладах.Остатки КАК ТоварыНаСкладахОстатки
+		ПО СпрНоменклатура.Ссылка = ТоварыНаСкладахОстатки.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			ЦеныНоменклатурыСрезПоследних.Номенклатура КАК Номенклатура,
+			ЦеныНоменклатурыСрезПоследних.Цена КАК Цена
+		ИЗ
+			РегистрСведений.ЦеныНоменклатуры.СрезПоследних КАК ЦеныНоменклатурыСрезПоследних
+				ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ДополнительныеСведения КАК ДополнительныеСведения
+				ПО ЦеныНоменклатурыСрезПоследних.ВидЦены = ДополнительныеСведения.Объект
+					И (ДополнительныеСведения.Свойство.Заголовок = "Валюта")
+		ГДЕ
+			ДополнительныеСведения.Значение.Код = "643") КАК ЦеныНоменклатурыРуб
+		ПО СпрНоменклатура.Ссылка = ЦеныНоменклатурыРуб.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			ЦеныНоменклатурыСрезПоследних.Номенклатура КАК Номенклатура,
+			ЦеныНоменклатурыСрезПоследних.Цена КАК Цена
+		ИЗ
+			РегистрСведений.ЦеныНоменклатуры.СрезПоследних КАК ЦеныНоменклатурыСрезПоследних
+				ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ДополнительныеСведения КАК ДополнительныеСведения
+				ПО ЦеныНоменклатурыСрезПоследних.ВидЦены = ДополнительныеСведения.Объект
+					И (ДополнительныеСведения.Свойство.Заголовок = "Валюта")
+		ГДЕ
+			ДополнительныеСведения.Значение.Код = "978") КАК ЦеныНоменклатурыEUR
+		ПО СпрНоменклатура.Ссылка = ЦеныНоменклатурыEUR.Номенклатура
+ГДЕ
+	(СпрНоменклатура.НеАктивна = ЛОЖЬ
+			ИЛИ СпрНоменклатура.НеАктивна ЕСТЬ NULL)
+	И (ВЫБОР
+				КОГДА &amp;Storch = ИСТИНА
+					ТОГДА СпрНоменклатура.Марка.Наименование = "Storch"
+				ИНАЧЕ СпрНоменклатура.Марка.Наименование &lt;&gt; "Storch"
+						ИЛИ СпрНоменклатура.Марка = ЗНАЧЕНИЕ(Справочник.Марки.ПустаяСсылка)
+			КОНЕЦ
+			ИЛИ СпрНоменклатура.ОбаКаталога = ИСТИНА)</query>
+	</dataSet>
+	<totalField>
+		<dataPath>APG</dataPath>
+		<expression>APG</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Blocked</dataPath>
+		<expression>Blocked</expression>
+	</totalField>
+	<totalField>
+		<dataPath>CalculatedPrice</dataPath>
+		<expression>CalculatedPrice</expression>
+	</totalField>
+	<totalField>
+		<dataPath>CalculatedPriceEUR</dataPath>
+		<expression>CalculatedPriceEUR</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Class</dataPath>
+		<expression>Class</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ClosedForSale</dataPath>
+		<expression>ClosedForSale</expression>
+	</totalField>
+	<totalField>
+		<dataPath>CountryOfOriginCode</dataPath>
+		<expression>CountryOfOriginCode</expression>
+	</totalField>
+	<totalField>
+		<dataPath>DiscontinuedGoods</dataPath>
+		<expression>DiscontinuedGoods</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Inventory</dataPath>
+		<expression>Inventory</expression>
+	</totalField>
+	<totalField>
+		<dataPath>NewGoods</dataPath>
+		<expression>NewGoods</expression>
+	</totalField>
+	<totalField>
+		<dataPath>PU</dataPath>
+		<expression>PU</expression>
+	</totalField>
+	<totalField>
+		<dataPath>PU2</dataPath>
+		<expression>PU2</expression>
+	</totalField>
+	<totalField>
+		<dataPath>PurchOrderDisposition</dataPath>
+		<expression>PurchOrderDisposition</expression>
+	</totalField>
+	<totalField>
+		<dataPath>SKULanguageCode</dataPath>
+		<expression>SKULanguageCode</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Sort</dataPath>
+		<expression>Sort</expression>
+	</totalField>
+	<totalField>
+		<dataPath>SubstitutesExist</dataPath>
+		<expression>SubstitutesExist</expression>
+	</totalField>
+	<totalField>
+		<dataPath>VKE</dataPath>
+		<expression>VKE</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>ТекущаяДата()</expression>
+	</parameter>
+	<parameter>
+		<name>Storch</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Storch</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Каталог</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Электронный каталог</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Storch</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					<dcsset:userSettingID>58284c46-bef4-4dde-b85f-87ab8c9e2a0a</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Артикул</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Фото</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Наименование</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Описание</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Марка</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Размеры</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>PU</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>PU2</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>VKE</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>SubstitutesExist</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Inventory</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>CalculatedPrice</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>CalculatedPriceEUR</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Blocked</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ClosedForSale</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>APG</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>CountryOfOriginCode</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Sort</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>NewGoods</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>DiscontinuedGoods</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>SKULanguageCode</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Class</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>PurchOrderDisposition</dcsset:field>
+					</dcsset:item>
+					<dcsset:userSettingID>7739c7e2-a352-4724-96da-b51b8c003605</dcsset:userSettingID>
+				</dcsset:selection>
+				<dcsset:conditionalAppearance>
+					<dcsset:item>
+						<dcsset:selection>
+							<dcsset:item>
+								<dcsset:field>Фото</dcsset:field>
+							</dcsset:item>
+						</dcsset:selection>
+						<dcsset:filter/>
+						<dcsset:appearance>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+								<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+							</dcscor:item>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+								<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+							</dcscor:item>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>МинимальнаяВысота</dcscor:parameter>
+								<dcscor:value xsi:type="xs:decimal">80</dcscor:value>
+							</dcscor:item>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>МаксимальнаяВысота</dcscor:parameter>
+								<dcscor:value xsi:type="xs:decimal">80</dcscor:value>
+							</dcscor:item>
+						</dcsset:appearance>
+					</dcsset:item>
+				</dcsset:conditionalAppearance>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

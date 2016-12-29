@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.3">
+	<Item id="4444e768-cd5c-4910-8cef-8897293ce8e6">
+		<Name>ПроцессыПродаж</Name>
+		<Code/>
+		<Description>Процессы продаж</Description>
+		<IsFolder>false</IsFolder>
+		<ChildItems>
+			<Item id="e6d10819-1266-47d7-a6ff-f109ba8cd48b">
+				<Name>НоваяСделка</Name>
+				<Code/>
+				<Description>Новая сделка</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="48b011fb-6c47-4195-8f46-d8647aec243b">
+				<Name>ПервичныйКонтакт</Name>
+				<Code/>
+				<Description>Первичный контакт</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5895df4c-1063-4475-b71d-a3e19554069e">
+				<Name>ФормированиеПредложения</Name>
+				<Code/>
+				<Description>Формирование предложения</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="02640a76-9773-4f7b-abfe-4bc45050295b">
+				<Name>СогласованиеУсловий</Name>
+				<Code/>
+				<Description>Согласование условий</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="099c7738-cad4-4ef3-904d-d244ff4175a3">
+				<Name>ВыполнениеОбязательств</Name>
+				<Code/>
+				<Description>Выполнение обязательств</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<InformationRegister uuid="aff92afc-9da2-49a1-9cfa-ca5710cac3a0">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияПредметовВзаимодействий" category="Record">
+				<xr:TypeId>5fb0a743-46ca-468d-affd-647294b4c2bf</xr:TypeId>
+				<xr:ValueId>4f4116b3-2c8c-47fa-849b-1bd453d0dfc9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияПредметовВзаимодействий" category="Manager">
+				<xr:TypeId>12a975e4-b15b-4e96-bfdb-bc7bdbe8acb9</xr:TypeId>
+				<xr:ValueId>4219fc11-fa0f-4666-80ff-629314a59a08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияПредметовВзаимодействий" category="Selection">
+				<xr:TypeId>b35fc487-dffb-4a39-85ee-ac994f43ff9a</xr:TypeId>
+				<xr:ValueId>270eebd8-9dff-4750-8aa1-74d52d64291c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияПредметовВзаимодействий" category="List">
+				<xr:TypeId>b9ab1fb3-505d-4313-9da1-33579733b34f</xr:TypeId>
+				<xr:ValueId>a5dfccb0-f3bd-46d5-a26a-2b29b49e0341</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияПредметовВзаимодействий" category="RecordSet">
+				<xr:TypeId>d2a36f16-6a15-4f7e-a4c6-d15742a3e2c1</xr:TypeId>
+				<xr:ValueId>4819f1e0-00bb-4795-b906-a25daff838f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияПредметовВзаимодействий" category="RecordKey">
+				<xr:TypeId>61abfa63-3666-4553-97ce-cd3dbee62569</xr:TypeId>
+				<xr:ValueId>b32d7a93-b275-4e27-9ebe-461bd3d7c3af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияПредметовВзаимодействий" category="RecordManager">
+				<xr:TypeId>061401c8-14e5-45aa-8522-116886524ffd</xr:TypeId>
+				<xr:ValueId>9373bd86-3f6c-498d-9409-b18c78202840</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияПредметовВзаимодействий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="be430da3-93fb-4337-8f5d-0dc78f67f9bb">
+				<Properties>
+					<Name>КоличествоНеРассмотрено</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="4bb6f32a-dd2d-4af5-943c-4a896c16da83">
+				<Properties>
+					<Name>Активен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="ef6f1c44-b6e4-4285-961f-5fde7fa87759">
+				<Properties>
+					<Name>ДатаПоследнегоВзаимодействия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="126ceeac-4e2e-4c97-b067-6af27ad71d4a">
+				<Properties>
+					<Name>Предмет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ПредметВзаимодействия</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

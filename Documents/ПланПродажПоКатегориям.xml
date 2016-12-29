@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Document uuid="f0eb3ef2-d5e2-47a4-8290-7d4c92e83a88">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПланПродажПоКатегориям" category="Object">
+				<xr:TypeId>1021681e-dff0-4027-92e1-927ab1fa08bd</xr:TypeId>
+				<xr:ValueId>40dfeedd-bdb4-4829-96cd-86d2c1f2faf9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПланПродажПоКатегориям" category="Ref">
+				<xr:TypeId>27412c90-3021-4c99-ad1d-22943df8d4c1</xr:TypeId>
+				<xr:ValueId>b9e0f6b0-ba15-4634-a02f-518e97a5423f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПланПродажПоКатегориям" category="Selection">
+				<xr:TypeId>e021e9f8-1213-419a-a46b-97df55f1fe1a</xr:TypeId>
+				<xr:ValueId>da8b2161-b8b5-44c6-9735-733943ebe6e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПланПродажПоКатегориям" category="List">
+				<xr:TypeId>a219750a-e51a-4431-a5ab-2da6021dda3f</xr:TypeId>
+				<xr:ValueId>3b1898b0-6725-4b54-91e0-1000eda65adb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПланПродажПоКатегориям" category="Manager">
+				<xr:TypeId>ce7e299f-9271-49a1-9f8c-3de898686748</xr:TypeId>
+				<xr:ValueId>8a0380dc-a8b6-4d34-8d59-e62e8f4bcb04</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПланПродажПоКатегориям</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="14ece620-722d-4634-9c76-156772cbeb6a">
+				<Properties>
+					<Name>Статус</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусыПланов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="850acbb5-9c96-46da-a363-34c840e806e1">
+				<Properties>
+					<Name>НачалоПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d9ac8b90-3e4a-4da3-bb97-35bb45ed602d">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cb90ec3c-df03-4262-9b9a-4ebf2e438909">
+				<Properties>
+					<Name>СтатьяБюджетов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5920552a-9cab-4f03-9e45-63af1be5b486">
+				<Properties>
+					<Name>ОкончаниеПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8749e46d-2534-44c3-8730-a2475e1ba38e">
+				<Properties>
+					<Name>Периодичность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.Периодичность</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="663226bc-8ca0-4801-a964-6bc92fcefbc5">
+				<Properties>
+					<Name>ВидПлана</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыПланов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="986fce2f-5433-4dbd-a868-c11faa0d80d6">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="79d9eb62-2ec9-47b4-bf90-f180f67767cd">
+				<Properties>
+					<Name>Склад</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="19460aaf-5cc8-46fc-9243-70980c4c1830">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="79da3623-531a-4d9c-bdc2-f92a7feba2f3">
+				<Properties>
+					<Name>Сценарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СценарииТоварногоПланирования</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bd7fdee2-2233-4e20-9266-c025cb56fe67">
+				<Properties>
+					<Name>ФорматМагазина</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФорматыМагазинов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e8e514cc-1677-4264-8383-46d0fa00f6d1">
+				<Properties>
+					<Name>ЗаполненоАвтоматически</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="397de61b-3cd8-4f2b-a175-acb1cb1e1696">
+				<Properties>
+					<Name>ЗаполнятьПоФормуле</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
+			<TabularSection uuid="c3703551-9cf7-49a7-96df-833e91333ddc">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПланПродажПоКатегориям.ТоварныеКатегории" category="TabularSection">
+						<xr:TypeId>f811641f-5d77-4510-abcb-2b9224fec808</xr:TypeId>
+						<xr:ValueId>c07711c3-8a96-44a3-94b2-f01f098653d1</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПланПродажПоКатегориям.ТоварныеКатегории" category="TabularSectionRow">
+						<xr:TypeId>5de20670-0465-44d6-94ef-3e9045ade799</xr:TypeId>
+						<xr:ValueId>ddfe2133-a2b6-4144-8c5b-b1f357487009</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ТоварныеКатегории</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="a6e6b723-9fc8-47f9-b77e-fb84cb8df8b9">
+						<Properties>
+							<Name>ТоварнаяКатегория</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ТоварныеКатегории</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="478b1b17-8c00-478f-abfc-a5eeb467765a">
+						<Properties>
+							<Name>Количество</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5bd1b172-6146-4802-bf31-63af6674cff5">
+						<Properties>
+							<Name>Склад</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a72be53a-0a58-424b-97d9-d73662d2b7be">
+						<Properties>
+							<Name>Комментарий</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="75da167e-b93a-487c-823b-405a69eadf1f">
+						<Properties>
+							<Name>РейтингПродаж</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.РейтингиПродажНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="acd82224-3005-47c4-a5a6-6123a6ccd10b">
+						<Properties>
+							<Name>ДатаОтгрузки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="50567fa6-cebc-40c7-a2ff-92bbfecc2b1f">
+						<Properties>
+							<Name>Отменено</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

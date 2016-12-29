@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Document uuid="9d23ef9b-9a3f-458d-a604-b02f37574420">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗапланированноеВзаимодействие" category="Object">
+				<xr:TypeId>b338e3c2-2b96-414a-a0f9-c6db38fbe708</xr:TypeId>
+				<xr:ValueId>eadd3416-e4bb-4c4c-931d-18fb61214009</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗапланированноеВзаимодействие" category="Ref">
+				<xr:TypeId>59a67c55-0a20-41cf-a493-cb67382ffcb6</xr:TypeId>
+				<xr:ValueId>cb6d58ac-1490-496a-b2e6-ba58a010ca5a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗапланированноеВзаимодействие" category="Selection">
+				<xr:TypeId>73ba6a2d-e42c-48e6-aea9-798e6f034114</xr:TypeId>
+				<xr:ValueId>174b75fd-b964-4406-be7b-e72ff21d4a31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗапланированноеВзаимодействие" category="List">
+				<xr:TypeId>dea30214-8afa-4edc-bf6a-c730d08c8359</xr:TypeId>
+				<xr:ValueId>ef4c3f6b-7406-4745-ab99-454b55084485</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗапланированноеВзаимодействие" category="Manager">
+				<xr:TypeId>f642cffb-092a-42aa-8898-579287483c40</xr:TypeId>
+				<xr:ValueId>b27051a7-31a2-4c81-b8a3-841b0d701998</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗапланированноеВзаимодействие</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2405217c-2580-4ba4-955a-4d5a9e92e9ae">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6cc75223-70dd-4cd0-89df-4e4142ca61df">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="608259f5-8faa-4373-b5bc-c015dafe909e">
+				<Properties>
+					<Name>Тема</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1024</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1b85ed61-bf27-44cf-8986-9063ca9604e1">
+				<Properties>
+					<Name>Важность</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВариантыВажностиВзаимодействия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="77fae97d-5346-41df-893f-e7cd4d957ce5">
+				<Properties>
+					<Name>Описание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="407c6ad3-5b4e-4891-8817-61ab39f1b3b6">
+				<Properties>
+					<Name>Автор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="f29d493a-88b5-4858-abcc-e24977ff1043">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗапланированноеВзаимодействие.Участники" category="TabularSection">
+						<xr:TypeId>78a4d48e-de6b-42b4-8a1a-f2bb27a115f0</xr:TypeId>
+						<xr:ValueId>dd55adea-1a5a-45d3-9f2d-5466d2348b02</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗапланированноеВзаимодействие.Участники" category="TabularSectionRow">
+						<xr:TypeId>1405c422-9226-470b-9392-c60a9c79e77f</xr:TypeId>
+						<xr:ValueId>f0b5d8fc-e359-4a6b-bbaa-05b551fdb32d</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Участники</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="6272b927-e20d-45ab-935f-a044d4416465">
+						<Properties>
+							<Name>ПредставлениеКонтакта</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f83ef52a-fccf-49fa-bae6-cf06c8b2b2c0">
+						<Properties>
+							<Name>Контакт</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.КонтактВзаимодействия</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1701a510-84b9-4662-aca8-2eed98857f0c">
+						<Properties>
+							<Name>КакСвязаться</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
