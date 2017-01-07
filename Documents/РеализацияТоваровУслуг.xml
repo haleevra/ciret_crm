@@ -26,6 +26,12 @@
 		<Properties>
 			<Name>РеализацияТоваровУслуг</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultObjectForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
 		</Properties>
 		<ChildObjects/>
 	</Document>

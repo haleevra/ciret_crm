@@ -13,7 +13,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПланПродажПоКатегориям</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">4eb7c977-8967-4d96-8aa4-c326ecff0598</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтношенияС_НК_СК</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.ЭлекнтронныйКаталог</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ЭлектронныйКаталог</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ИсполнениеМатрицы</xr:Item>
 			</Content>
 		</Properties>

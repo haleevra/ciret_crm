@@ -26,6 +26,16 @@
 		<Properties>
 			<Name>КлючиАналитикиУчетаПоПартнерам</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultObjectForm/>
+			<DefaultFolderForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="017ef83a-1190-4052-b6e2-3b1cbb079e84">

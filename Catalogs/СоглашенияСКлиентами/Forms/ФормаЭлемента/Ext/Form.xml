@@ -228,7 +228,6 @@
 													<v8:content>Номер и дата</v8:content>
 												</v8:item>
 											</ToolTip>
-											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -242,8 +241,7 @@
 															<v8:content>Номер</v8:content>
 														</v8:item>
 													</Title>
-													<Width>10</Width>
-													<HorizontalStretch>false</HorizontalStretch>
+													<TitleLocation>Left</TitleLocation>
 													<Wrap>false</Wrap>
 													<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 													<ExtendedTooltip name="НомерExtendedTooltip" id="543"/>
@@ -256,6 +254,7 @@
 															<v8:content>от</v8:content>
 														</v8:item>
 													</Title>
+													<TitleLocation>Left</TitleLocation>
 													<Width>14</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="ДатаКонтекстноеМеню" id="432"/>
@@ -265,20 +264,15 @@
 										</UsualGroup>
 										<InputField name="Наименование" id="335">
 											<DataPath>Объект.Description</DataPath>
-											<Width>28</Width>
-											<HorizontalStretch>false</HorizontalStretch>
+											<TitleLocation>Left</TitleLocation>
 											<Wrap>false</Wrap>
 											<ContextMenu name="НаименованиеКонтекстноеМеню" id="336"/>
 											<ExtendedTooltip name="НаименованиеExtendedTooltip" id="545"/>
 										</InputField>
 										<InputField name="Партнер" id="271">
 											<DataPath>Объект.Партнер</DataPath>
-											<Width>28</Width>
-											<HorizontalStretch>false</HorizontalStretch>
+											<TitleLocation>Left</TitleLocation>
 											<Wrap>false</Wrap>
-											<DropListButton>false</DropListButton>
-											<ChoiceButton>true</ChoiceButton>
-											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 											<ChoiceParameters>
 												<app:item name="Отбор.Клиент">
 													<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -293,12 +287,8 @@
 										<InputField name="Контрагент" id="275">
 											<DataPath>Объект.Контрагент</DataPath>
 											<Visible>false</Visible>
-											<Width>28</Width>
-											<HorizontalStretch>false</HorizontalStretch>
+											<TitleLocation>Left</TitleLocation>
 											<Wrap>false</Wrap>
-											<DropListButton>false</DropListButton>
-											<ChoiceButton>true</ChoiceButton>
-											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Партнер</xr:Name>
@@ -312,11 +302,7 @@
 										<InputField name="КонтактноеЛицо" id="495">
 											<DataPath>Объект.КонтактноеЛицо</DataPath>
 											<Visible>false</Visible>
-											<Width>28</Width>
-											<HorizontalStretch>false</HorizontalStretch>
-											<DropListButton>false</DropListButton>
-											<ChoiceButton>true</ChoiceButton>
-											<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+											<TitleLocation>Left</TitleLocation>
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Владелец</xr:Name>
@@ -336,8 +322,7 @@
 													<v8:content>Типовое соглашение</v8:content>
 												</v8:item>
 											</Title>
-											<Width>28</Width>
-											<HorizontalStretch>false</HorizontalStretch>
+											<TitleLocation>Left</TitleLocation>
 											<Wrap>false</Wrap>
 											<DropListButton>false</DropListButton>
 											<ChoiceButton>true</ChoiceButton>
@@ -348,8 +333,7 @@
 										<InputField name="СегментПартнеров" id="279">
 											<DataPath>Объект.СегментПартнеров</DataPath>
 											<Visible>false</Visible>
-											<Width>28</Width>
-											<HorizontalStretch>false</HorizontalStretch>
+											<TitleLocation>Left</TitleLocation>
 											<Wrap>false</Wrap>
 											<QuickChoice>true</QuickChoice>
 											<ChoiceParameters>
@@ -359,11 +343,11 @@
 														<Value xsi:type="v8:FixedArray">
 															<v8:Value xsi:type="FormChoiceListDesTimeValue">
 																<Presentation/>
-																<Value xsi:type="xr:DesignTimeRef">46d31d4f-5fe3-4cb7-9e5f-34a99dbb7637.2d6ce8b0-5b77-4b73-93e5-829242f25c0d</Value>
+																<Value xsi:type="xr:DesignTimeRef">Enum.СпособыФормированияСегментов.EnumValue.ПериодическиОбновлять</Value>
 															</v8:Value>
 															<v8:Value xsi:type="FormChoiceListDesTimeValue">
 																<Presentation/>
-																<Value xsi:type="xr:DesignTimeRef">46d31d4f-5fe3-4cb7-9e5f-34a99dbb7637.e14b9750-5d04-4861-9a6b-3da72b48a5b5</Value>
+																<Value xsi:type="xr:DesignTimeRef">Enum.СпособыФормированияСегментов.EnumValue.ФормироватьВручную</Value>
 															</v8:Value>
 														</Value>
 													</app:value>
@@ -375,11 +359,8 @@
 										<InputField name="СегментНоменклатуры" id="11">
 											<DataPath>Объект.СегментНоменклатуры</DataPath>
 											<Visible>false</Visible>
-											<Width>28</Width>
-											<HorizontalStretch>false</HorizontalStretch>
+											<TitleLocation>Left</TitleLocation>
 											<Wrap>false</Wrap>
-											<OpenButton>true</OpenButton>
-											<QuickChoice>true</QuickChoice>
 											<ChoiceParameters>
 												<app:item name="Отбор.СпособФормирования">
 													<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -387,11 +368,11 @@
 														<Value xsi:type="v8:FixedArray">
 															<v8:Value xsi:type="FormChoiceListDesTimeValue">
 																<Presentation/>
-																<Value xsi:type="xr:DesignTimeRef">46d31d4f-5fe3-4cb7-9e5f-34a99dbb7637.2d6ce8b0-5b77-4b73-93e5-829242f25c0d</Value>
+																<Value xsi:type="xr:DesignTimeRef">Enum.СпособыФормированияСегментов.EnumValue.ПериодическиОбновлять</Value>
 															</v8:Value>
 															<v8:Value xsi:type="FormChoiceListDesTimeValue">
 																<Presentation/>
-																<Value xsi:type="xr:DesignTimeRef">46d31d4f-5fe3-4cb7-9e5f-34a99dbb7637.e14b9750-5d04-4861-9a6b-3da72b48a5b5</Value>
+																<Value xsi:type="xr:DesignTimeRef">Enum.СпособыФормированияСегментов.EnumValue.ФормироватьВручную</Value>
 															</v8:Value>
 														</Value>
 													</app:value>
@@ -423,8 +404,7 @@
 										<InputField name="Статус" id="346">
 											<DataPath>Объект.Статус</DataPath>
 											<Visible>false</Visible>
-											<Width>12</Width>
-											<HorizontalStretch>false</HorizontalStretch>
+											<TitleLocation>Left</TitleLocation>
 											<ContextMenu name="СтатусКонтекстноеМеню" id="347"/>
 											<ExtendedTooltip name="СтатусExtendedTooltip" id="553"/>
 										</InputField>
@@ -441,7 +421,6 @@
 													<v8:content>Срок действия</v8:content>
 												</v8:item>
 											</ToolTip>
-											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -455,8 +434,8 @@
 															<v8:content>Период действия с</v8:content>
 														</v8:item>
 													</Title>
-													<Width>10</Width>
-													<HorizontalStretch>false</HorizontalStretch>
+													<TitleLocation>Left</TitleLocation>
+													<HorizontalStretch>true</HorizontalStretch>
 													<Wrap>false</Wrap>
 													<AutoMarkIncomplete>false</AutoMarkIncomplete>
 													<ContextMenu name="ДатаНачалаДействияКонтекстноеМеню" id="101"/>
@@ -470,8 +449,8 @@
 															<v8:content>по</v8:content>
 														</v8:item>
 													</Title>
-													<Width>10</Width>
-													<HorizontalStretch>false</HorizontalStretch>
+													<TitleLocation>Left</TitleLocation>
+													<HorizontalStretch>true</HorizontalStretch>
 													<Wrap>false</Wrap>
 													<ContextMenu name="ДатаОкончанияДействияКонтекстноеМеню" id="103"/>
 													<ExtendedTooltip name="ДатаОкончанияДействияExtendedTooltip" id="556"/>
@@ -487,8 +466,7 @@
 										<InputField name="ХозяйственнаяОперация" id="408">
 											<DataPath>Объект.ХозяйственнаяОперация</DataPath>
 											<Visible>false</Visible>
-											<Width>29</Width>
-											<HorizontalStretch>false</HorizontalStretch>
+											<TitleLocation>Left</TitleLocation>
 											<ListChoiceMode>true</ListChoiceMode>
 											<ChoiceList>
 												<xr:Item>
@@ -515,8 +493,7 @@
 										<InputField name="Организация" id="277">
 											<DataPath>Объект.Организация</DataPath>
 											<Visible>false</Visible>
-											<Width>29</Width>
-											<HorizontalStretch>false</HorizontalStretch>
+											<TitleLocation>Left</TitleLocation>
 											<Wrap>false</Wrap>
 											<AutoMarkIncomplete>false</AutoMarkIncomplete>
 											<ContextMenu name="ОрганизацияКонтекстноеМеню" id="278"/>
@@ -525,8 +502,7 @@
 										<InputField name="Менеджер" id="107">
 											<DataPath>Объект.Менеджер</DataPath>
 											<Visible>false</Visible>
-											<Width>29</Width>
-											<HorizontalStretch>false</HorizontalStretch>
+											<TitleLocation>Left</TitleLocation>
 											<Wrap>false</Wrap>
 											<ContextMenu name="МенеджерКонтекстноеМеню" id="108"/>
 											<ExtendedTooltip name="МенеджерExtendedTooltip" id="656"/>
@@ -538,9 +514,7 @@
 						<InputField name="Комментарий" id="458">
 							<DataPath>Объект.Комментарий</DataPath>
 							<Visible>false</Visible>
-							<TitleLocation>Top</TitleLocation>
-							<Width>87</Width>
-							<HorizontalStretch>false</HorizontalStretch>
+							<TitleLocation>Left</TitleLocation>
 							<VerticalStretch>false</VerticalStretch>
 							<Wrap>false</Wrap>
 							<ChoiceButton>false</ChoiceButton>
@@ -597,10 +571,9 @@
 											<v8:content>Параметры лево</v8:content>
 										</v8:item>
 									</ToolTip>
-									<Width>51</Width>
-									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
+									<United>false</United>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПараметрыЛевоРасширеннаяПодсказка" id="797"/>
 									<ChildItems>
@@ -655,14 +628,41 @@
 																	<v8:content>Группа договоры контрагентов порядок расчетов</v8:content>
 																</v8:item>
 															</ToolTip>
-															<Width>55</Width>
-															<HorizontalStretch>false</HorizontalStretch>
 															<Group>Vertical</Group>
 															<Representation>None</Representation>
 															<ChildItemsWidth>LeftWide</ChildItemsWidth>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаДоговорыКонтрагентовПорядокРасчетовExtendedTooltip" id="594"/>
 															<ChildItems>
+																<RadioButtonField name="ИспользуютсяДоговорыКонтрагентов" id="515">
+																	<DataPath>ИспользуютсяДоговорыКонтрагентов</DataPath>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Требуется</v8:content>
+																		</v8:item>
+																	</Title>
+																	<TitleLocation>None</TitleLocation>
+																	<RadioButtonType>Auto</RadioButtonType>
+																	<ColumnsCount>1</ColumnsCount>
+																	<ChoiceList>
+																		<xr:Item>
+																			<xr:Presentation/>
+																			<xr:CheckState>0</xr:CheckState>
+																			<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																				<Presentation>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Требуется указание договора, порядок расчетов определяется в договоре</v8:content>
+																					</v8:item>
+																				</Presentation>
+																				<Value xsi:type="xs:decimal">1</Value>
+																			</xr:Value>
+																		</xr:Item>
+																	</ChoiceList>
+																	<ContextMenu name="ИспользуютсяДоговорыКонтрагентовКонтекстноеМеню" id="516"/>
+																	<ExtendedTooltip name="ИспользуютсяДоговорыКонтрагентовExtendedTooltip" id="599"/>
+																</RadioButtonField>
 																<RadioButtonField name="НеИспользуютсяДоговорыКонтрагентов" id="474">
 																	<DataPath>ИспользуютсяДоговорыКонтрагентов</DataPath>
 																	<TitleLocation>None</TitleLocation>
@@ -693,74 +693,79 @@
 																			<v8:content>Группа порядок расчетов</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<HorizontalStretch>false</HorizontalStretch>
 																	<Group>Horizontal</Group>
 																	<Representation>None</Representation>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаПорядокРасчетовРасширеннаяПодсказка" id="804"/>
 																	<ChildItems>
 																		<LabelDecoration name="ОтступПорядокРасчетов" id="805">
-																			<HorizontalStretch>false</HorizontalStretch>
+																			<Width>1</Width>
 																			<ContextMenu name="ОтступПорядокРасчетовКонтекстноеМеню" id="806"/>
 																			<ExtendedTooltip name="ОтступПорядокРасчетовРасширеннаяПодсказка" id="807"/>
 																		</LabelDecoration>
-																		<InputField name="ПорядокРасчетов" id="501">
-																			<DataPath>Объект.ПорядокРасчетов</DataPath>
-																			<TitleLocation>None</TitleLocation>
-																			<HorizontalStretch>false</HorizontalStretch>
-																			<ListChoiceMode>true</ListChoiceMode>
-																			<ChoiceList>
-																				<xr:Item>
-																					<xr:Presentation/>
-																					<xr:CheckState>0</xr:CheckState>
-																					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																						<Presentation/>
-																						<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоЗаказамНакладным</Value>
-																					</xr:Value>
-																				</xr:Item>
-																				<xr:Item>
-																					<xr:Presentation/>
-																					<xr:CheckState>0</xr:CheckState>
-																					<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																						<Presentation/>
-																						<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоНакладным</Value>
-																					</xr:Value>
-																				</xr:Item>
-																			</ChoiceList>
-																			<ContextMenu name="ПорядокРасчетовКонтекстноеМеню" id="502"/>
-																			<ExtendedTooltip name="ПорядокРасчетовExtendedTooltip" id="597"/>
-																		</InputField>
+																		<UsualGroup name="ГруппаРеквизитыДоговора" id="960">
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа реквизиты договора</v8:content>
+																				</v8:item>
+																			</Title>
+																			<ToolTip>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа реквизиты договора</v8:content>
+																				</v8:item>
+																			</ToolTip>
+																			<Group>Vertical</Group>
+																			<Representation>None</Representation>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаРеквизитыДоговораРасширеннаяПодсказка" id="961"/>
+																			<ChildItems>
+																				<InputField name="ВалютаВзаиморасчетов" id="962">
+																					<DataPath>Объект.ВалютаВзаиморасчетов</DataPath>
+																					<AutoMaxWidth>false</AutoMaxWidth>
+																					<MaxWidth>8</MaxWidth>
+																					<HorizontalStretch>false</HorizontalStretch>
+																					<ContextMenu name="ВалютаВзаиморасчетовКонтекстноеМеню" id="963"/>
+																					<ExtendedTooltip name="ВалютаВзаиморасчетовРасширеннаяПодсказка" id="964"/>
+																				</InputField>
+																				<InputField name="ПорядокРасчетов" id="501">
+																					<DataPath>Объект.ПорядокРасчетов</DataPath>
+																					<TitleLocation>Left</TitleLocation>
+																					<HorizontalStretch>false</HorizontalStretch>
+																					<ListChoiceMode>true</ListChoiceMode>
+																					<ChoiceList>
+																						<xr:Item>
+																							<xr:Presentation/>
+																							<xr:CheckState>0</xr:CheckState>
+																							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																								<Presentation/>
+																								<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоЗаказамНакладным</Value>
+																							</xr:Value>
+																						</xr:Item>
+																						<xr:Item>
+																							<xr:Presentation/>
+																							<xr:CheckState>0</xr:CheckState>
+																							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																								<Presentation/>
+																								<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоНакладным</Value>
+																							</xr:Value>
+																						</xr:Item>
+																					</ChoiceList>
+																					<ContextMenu name="ПорядокРасчетовКонтекстноеМеню" id="502"/>
+																					<ExtendedTooltip name="ПорядокРасчетовExtendedTooltip" id="597"/>
+																				</InputField>
+																				<InputField name="ПорядокОплаты" id="466">
+																					<DataPath>Объект.ПорядокОплаты</DataPath>
+																					<HorizontalStretch>false</HorizontalStretch>
+																					<ListChoiceMode>true</ListChoiceMode>
+																					<ContextMenu name="ПорядокОплатыКонтекстноеМеню" id="467"/>
+																					<ExtendedTooltip name="ПорядокОплатыExtendedTooltip" id="592"/>
+																				</InputField>
+																			</ChildItems>
+																		</UsualGroup>
 																	</ChildItems>
 																</UsualGroup>
-																<RadioButtonField name="ИспользуютсяДоговорыКонтрагентов" id="515">
-																	<DataPath>ИспользуютсяДоговорыКонтрагентов</DataPath>
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Требуется</v8:content>
-																		</v8:item>
-																	</Title>
-																	<TitleLocation>None</TitleLocation>
-																	<RadioButtonType>Auto</RadioButtonType>
-																	<ColumnsCount>1</ColumnsCount>
-																	<ChoiceList>
-																		<xr:Item>
-																			<xr:Presentation/>
-																			<xr:CheckState>0</xr:CheckState>
-																			<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																				<Presentation>
-																					<v8:item>
-																						<v8:lang>ru</v8:lang>
-																						<v8:content>Требуется указание договора, порядок расчетов определяется в договоре</v8:content>
-																					</v8:item>
-																				</Presentation>
-																				<Value xsi:type="xs:decimal">1</Value>
-																			</xr:Value>
-																		</xr:Item>
-																	</ChoiceList>
-																	<ContextMenu name="ИспользуютсяДоговорыКонтрагентовКонтекстноеМеню" id="516"/>
-																	<ExtendedTooltip name="ИспользуютсяДоговорыКонтрагентовExtendedTooltip" id="599"/>
-																</RadioButtonField>
 															</ChildItems>
 														</UsualGroup>
 														<UsualGroup name="ГруппаГрафикОплатыИнформационнаяНадпись" id="422">
@@ -782,43 +787,17 @@
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаГрафикОплатыИнформационнаяНадписьExtendedTooltip" id="586"/>
 															<ChildItems>
-																<InputField name="ПорядокОплаты" id="466">
-																	<DataPath>Объект.ПорядокОплаты</DataPath>
-																	<HorizontalStretch>false</HorizontalStretch>
-																	<ContextMenu name="ПорядокОплатыКонтекстноеМеню" id="467"/>
-																	<ExtendedTooltip name="ПорядокОплатыExtendedTooltip" id="592"/>
-																</InputField>
-																<UsualGroup name="ГруппаОплата" id="490">
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Группа оплата</v8:content>
-																		</v8:item>
-																	</Title>
-																	<ToolTip>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Группа оплата</v8:content>
-																		</v8:item>
-																	</ToolTip>
-																	<Group>Horizontal</Group>
-																	<Representation>None</Representation>
-																	<ShowTitle>false</ShowTitle>
-																	<ExtendedTooltip name="ГруппаОплатаExtendedTooltip" id="587"/>
-																	<ChildItems>
-																		<LabelField name="НадписьОплата" id="493">
-																			<DataPath>НадписьОплата</DataPath>
-																			<TitleLocation>None</TitleLocation>
-																			<Height>1</Height>
-																			<Hiperlink>true</Hiperlink>
-																			<ContextMenu name="НадписьОплатаКонтекстноеМеню" id="494"/>
-																			<ExtendedTooltip name="НадписьОплатаРасширеннаяПодсказка" id="589"/>
-																		</LabelField>
-																	</ChildItems>
-																</UsualGroup>
+																<LabelField name="НадписьОплата" id="493">
+																	<DataPath>НадписьОплата</DataPath>
+																	<TitleLocation>None</TitleLocation>
+																	<Height>1</Height>
+																	<Hiperlink>true</Hiperlink>
+																	<ContextMenu name="НадписьОплатаКонтекстноеМеню" id="494"/>
+																	<ExtendedTooltip name="НадписьОплатаРасширеннаяПодсказка" id="589"/>
+																</LabelField>
 																<InputField name="ГрафикОплаты" id="27">
 																	<DataPath>Объект.ГрафикОплаты</DataPath>
-																	<HorizontalStretch>false</HorizontalStretch>
+																	<TitleLocation>Left</TitleLocation>
 																	<Wrap>false</Wrap>
 																	<AutoMarkIncomplete>false</AutoMarkIncomplete>
 																	<ContextMenu name="ГрафикОплатыКонтекстноеМеню" id="28"/>
@@ -869,7 +848,7 @@
 													<ChildItems>
 														<InputField name="Склад" id="286">
 															<DataPath>Объект.Склад</DataPath>
-															<HorizontalStretch>false</HorizontalStretch>
+															<TitleLocation>Left</TitleLocation>
 															<Wrap>false</Wrap>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
@@ -911,6 +890,7 @@
 																			<v8:content>Срок поставки</v8:content>
 																		</v8:item>
 																	</Title>
+																	<TitleLocation>Left</TitleLocation>
 																	<Width>5</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<Wrap>false</Wrap>
@@ -1036,6 +1016,7 @@
 																	<v8:content>Комиссионное вознаграждение</v8:content>
 																</v8:item>
 															</Title>
+															<TitleLocation>Left</TitleLocation>
 															<Width>30</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<ContextMenu name="СпособРасчетаВознагражденияКонтекстноеМеню" id="412"/>
@@ -1061,6 +1042,7 @@
 															<ChildItems>
 																<InputField name="ПроцентВознаграждения" id="413">
 																	<DataPath>Объект.ПроцентВознаграждения</DataPath>
+																	<TitleLocation>Left</TitleLocation>
 																	<ContextMenu name="ПроцентВознагражденияКонтекстноеМеню" id="414"/>
 																	<ExtendedTooltip name="ПроцентВознагражденияExtendedTooltip" id="577"/>
 																</InputField>
@@ -1079,12 +1061,6 @@
 										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
-								<LabelDecoration name="ОтступМеждуКолонкамиПараметры" id="800">
-									<Width>1</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="ОтступМеждуКолонкамиПараметрыКонтекстноеМеню" id="801"/>
-									<ExtendedTooltip name="ОтступМеждуКолонкамиПараметрыРасширеннаяПодсказка" id="802"/>
-								</LabelDecoration>
 								<UsualGroup name="ГруппаПараметрыПраво" id="798">
 									<Title>
 										<v8:item>
@@ -1100,6 +1076,7 @@
 									</ToolTip>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
+									<United>false</United>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПараметрыПравоРасширеннаяПодсказка" id="799"/>
 									<ChildItems>
@@ -1153,7 +1130,6 @@
 																	<v8:content>Валюта, цена включает НДС</v8:content>
 																</v8:item>
 															</ToolTip>
-															<HorizontalStretch>false</HorizontalStretch>
 															<Group>Horizontal</Group>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
@@ -1161,6 +1137,7 @@
 															<ChildItems>
 																<InputField name="Валюта" id="15">
 																	<DataPath>Объект.Валюта</DataPath>
+																	<TitleLocation>Left</TitleLocation>
 																	<Width>5</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<Wrap>false</Wrap>
@@ -1206,7 +1183,7 @@
 															<ChildItems>
 																<InputField name="ВидЦен" id="19">
 																	<DataPath>Объект.ВидЦен</DataPath>
-																	<HorizontalStretch>false</HorizontalStretch>
+																	<TitleLocation>Left</TitleLocation>
 																	<Wrap>false</Wrap>
 																	<OpenButton>false</OpenButton>
 																	<QuickChoice>true</QuickChoice>
@@ -1286,12 +1263,14 @@
 																</CheckBoxField>
 																<InputField name="ПроцентРучнойСкидки" id="423">
 																	<DataPath>Объект.ПроцентРучнойСкидки</DataPath>
+																	<TitleLocation>Left</TitleLocation>
 																	<SpinButton>true</SpinButton>
 																	<ContextMenu name="ПроцентРучнойСкидкиКонтекстноеМеню" id="424"/>
 																	<ExtendedTooltip name="ПроцентРучнойСкидкиExtendedTooltip" id="653"/>
 																</InputField>
 																<InputField name="ПроцентРучнойНаценки" id="425">
 																	<DataPath>Объект.ПроцентРучнойНаценки</DataPath>
+																	<TitleLocation>Left</TitleLocation>
 																	<SpinButton>true</SpinButton>
 																	<ContextMenu name="ПроцентРучнойНаценкиКонтекстноеМеню" id="426"/>
 																	<ExtendedTooltip name="ПроцентРучнойНаценкиExtendedTooltip" id="654"/>
@@ -1374,13 +1353,13 @@
 															<ExtendedTooltip name="ГруппаЗначениеНалогообложенияРасширеннаяПодсказка" id="686"/>
 															<ChildItems>
 																<LabelDecoration name="ОтступНалогообложениеНДС" id="814">
+																	<Width>1</Width>
 																	<ContextMenu name="ОтступНалогообложениеНДСКонтекстноеМеню" id="815"/>
 																	<ExtendedTooltip name="ОтступНалогообложениеНДСРасширеннаяПодсказка" id="816"/>
 																</LabelDecoration>
 																<InputField name="НалогообложениеНДС" id="390">
 																	<DataPath>Объект.НалогообложениеНДС</DataPath>
 																	<TitleLocation>None</TitleLocation>
-																	<HorizontalStretch>false</HorizontalStretch>
 																	<ListChoiceMode>true</ListChoiceMode>
 																	<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																	<ChoiceList>
@@ -1635,25 +1614,15 @@
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаРежимаРасчетаДатыВозвратаРасширеннаяПодсказка" id="664"/>
 																	<ChildItems>
-																		<LabelDecoration name="ЗаголовокРежимаРасчетаДатыВозврата" id="665">
-																			<Title formatted="false">
-																				<v8:item>
-																					<v8:lang>ru</v8:lang>
-																					<v8:content>Рассчитывать дату возврата тары по:</v8:content>
-																				</v8:item>
-																			</Title>
-																			<ToolTip>
-																				<v8:item>
-																					<v8:lang>ru</v8:lang>
-																					<v8:content>Определяет способ расчета даты возвраты многооборотной тары клиентом: по всем дням или по календарю предприятия</v8:content>
-																				</v8:item>
-																			</ToolTip>
-																			<ContextMenu name="ЗаголовокРежимаРасчетаДатыВозвратаКонтекстноеМеню" id="666"/>
-																			<ExtendedTooltip name="ЗаголовокРежимаРасчетаДатыВозвратаРасширеннаяПодсказка" id="667"/>
-																		</LabelDecoration>
 																		<RadioButtonField name="НеРассчитыватьДатуВозвратаТарыПоКалендарю" id="668">
 																			<DataPath>РассчитыватьДатуВозвратаТарыПоКалендарю</DataPath>
-																			<TitleLocation>None</TitleLocation>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Рассчитывать дату возврата тары по</v8:content>
+																				</v8:item>
+																			</Title>
+																			<TitleLocation>Top</TitleLocation>
 																			<ToolTip>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
@@ -1714,6 +1683,7 @@
 																			<ExtendedTooltip name="ГруппаКалендарьВозвратаТарыРасширеннаяПодсказка" id="678"/>
 																			<ChildItems>
 																				<LabelDecoration name="ОтступКалендарьВозвратТары" id="811">
+																					<Width>1</Width>
 																					<ContextMenu name="ОтступКалендарьВозвратТарыКонтекстноеМеню" id="812"/>
 																					<ExtendedTooltip name="ОтступКалендарьВозвратТарыРасширеннаяПодсказка" id="813"/>
 																				</LabelDecoration>
@@ -1810,6 +1780,7 @@
 																			<v8:content>Сумма</v8:content>
 																		</v8:item>
 																	</Title>
+																	<TitleLocation>Left</TitleLocation>
 																	<Width>12</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
 																	<Wrap>false</Wrap>
@@ -1830,6 +1801,7 @@
 														</UsualGroup>
 														<InputField name="КоличествоПериодов" id="129">
 															<DataPath>Объект.КоличествоПериодов</DataPath>
+															<TitleLocation>Left</TitleLocation>
 															<Width>12</Width>
 															<Wrap>false</Wrap>
 															<SpinButton>true</SpinButton>
@@ -1838,6 +1810,7 @@
 														</InputField>
 														<InputField name="Период" id="35">
 															<DataPath>Объект.Период</DataPath>
+															<TitleLocation>Left</TitleLocation>
 															<Width>12</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<Wrap>false</Wrap>
@@ -1921,6 +1894,7 @@
 													<ChildItems>
 														<InputField name="ГруппаФинансовогоУчета" id="464">
 															<DataPath>Объект.ГруппаФинансовогоУчета</DataPath>
+															<TitleLocation>Left</TitleLocation>
 															<HorizontalStretch>false</HorizontalStretch>
 															<ContextMenu name="ГруппаФинансовогоУчетаКонтекстноеМеню" id="465"/>
 															<ExtendedTooltip name="ГруппаФинансовогоУчетаExtendedTooltip" id="593"/>
@@ -1933,6 +1907,7 @@
 																	<v8:content>Статья ДДС</v8:content>
 																</v8:item>
 															</Title>
+															<TitleLocation>Left</TitleLocation>
 															<HorizontalStretch>false</HorizontalStretch>
 															<DropListButton>false</DropListButton>
 															<ChoiceButton>true</ChoiceButton>
@@ -1941,7 +1916,7 @@
 																<app:item name="Отбор.ХозяйственнаяОперация">
 																	<app:value xsi:type="FormChoiceListDesTimeValue">
 																		<Presentation/>
-																		<Value xsi:type="xr:DesignTimeRef">ae0f3889-6e23-4a7a-bf5d-cd197ab78fb7.10db127e-a377-4878-8ead-955d0ff48e4d</Value>
+																		<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеОплатыОтКлиента</Value>
 																	</app:value>
 																</app:item>
 															</ChoiceParameters>
@@ -1950,10 +1925,8 @@
 														</InputField>
 														<InputField name="НаправлениеДеятельности" id="954">
 															<DataPath>Объект.НаправлениеДеятельности</DataPath>
+															<TitleLocation>Left</TitleLocation>
 															<HorizontalStretch>false</HorizontalStretch>
-															<DropListButton>false</DropListButton>
-															<ChoiceButton>true</ChoiceButton>
-															<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 															<ContextMenu name="НаправлениеДеятельностиКонтекстноеМеню" id="955"/>
 															<ExtendedTooltip name="НаправлениеДеятельностиРасширеннаяПодсказка" id="956"/>
 														</InputField>
@@ -1975,13 +1948,13 @@
 													<v8:content>Группа контролируемые сделки</v8:content>
 												</v8:item>
 											</ToolTip>
-											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Vertical</Group>
 											<Representation>NormalSeparation</Representation>
 											<ExtendedTooltip name="ГруппаКонтролируемыеСделкиРасширеннаяПодсказка" id="919"/>
 											<ChildItems>
 												<InputField name="КодНаименованияСделки" id="920">
 													<DataPath>Объект.КодНаименованияСделки</DataPath>
+													<TitleLocation>Left</TitleLocation>
 													<Width>15</Width>
 													<ListChoiceMode>true</ListChoiceMode>
 													<DropListWidth>45</DropListWidth>
@@ -1990,6 +1963,7 @@
 												</InputField>
 												<InputField name="СпособОпределенияЦеныСделки" id="923">
 													<DataPath>Объект.СпособОпределенияЦеныСделки</DataPath>
+													<TitleLocation>Left</TitleLocation>
 													<Width>15</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="СпособОпределенияЦеныСделкиКонтекстноеМеню" id="924"/>
@@ -1997,6 +1971,7 @@
 												</InputField>
 												<InputField name="КодУсловийПоставки" id="926">
 													<DataPath>Объект.КодУсловийПоставки</DataPath>
+													<TitleLocation>Left</TitleLocation>
 													<DropListButton>true</DropListButton>
 													<DropListWidth>35</DropListWidth>
 													<ContextMenu name="КодУсловийПоставкиКонтекстноеМеню" id="927"/>
@@ -2018,7 +1993,7 @@
 												</v8:item>
 											</ToolTip>
 											<Group>Vertical</Group>
-											<Representation>None</Representation>
+											<Representation>NormalSeparation</Representation>
 											<ChildItemsWidth>LeftWide</ChildItemsWidth>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаДоступностьСоглашенияРеквизитыРасширеннаяПодсказка" id="612"/>
@@ -2062,7 +2037,6 @@
 															<v8:content>Страницы планы закупок</v8:content>
 														</v8:item>
 													</ToolTip>
-													<HorizontalStretch>false</HorizontalStretch>
 													<PagesRepresentation>None</PagesRepresentation>
 													<ExtendedTooltip name="СтраницыПланыЗакупокExtendedTooltip" id="615"/>
 													<ChildItems>
@@ -2072,11 +2046,13 @@
 															<ChildItems>
 																<InputField name="СценарийПланирования" id="519">
 																	<DataPath>Объект.СценарийПланирования</DataPath>
+																	<TitleLocation>Left</TitleLocation>
 																	<ContextMenu name="СценарийПланированияКонтекстноеМеню" id="520"/>
 																	<ExtendedTooltip name="СценарийПланированияExtendedTooltip" id="617"/>
 																</InputField>
 																<InputField name="ВидПлана" id="521">
 																	<DataPath>Объект.ВидПлана</DataPath>
+																	<TitleLocation>Left</TitleLocation>
 																	<ContextMenu name="ВидПланаКонтекстноеМеню" id="522"/>
 																	<ExtendedTooltip name="ВидПланаExtendedTooltip" id="618"/>
 																</InputField>
@@ -2100,6 +2076,18 @@
 														</Page>
 													</ChildItems>
 												</Pages>
+												<UsualGroup name="ГруппаТорговыеПредложения" id="971">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>1С:Бизнес-сеть</v8:content>
+														</v8:item>
+													</Title>
+													<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+													<Group>Vertical</Group>
+													<Representation>NormalSeparation</Representation>
+													<ExtendedTooltip name="ГруппаТорговыеПредложенияРасширеннаяПодсказка" id="972"/>
+												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
 									</ChildItems>
@@ -2143,9 +2131,6 @@
 							<HorizontalScrollBar>DontUse</HorizontalScrollBar>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<DataPath>Объект.ЦеновыеГруппы</DataPath>
-							<SearchStringLocation>None</SearchStringLocation>
-							<ViewStatusLocation>None</ViewStatusLocation>
-							<SearchControlLocation>None</SearchControlLocation>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ЦеновыеГруппыКонтекстноеМеню" id="44"/>
 							<AutoCommandBar name="ЦеновыеГруппыКоманднаяПанель" id="45">
@@ -2257,13 +2242,15 @@
 							<HorizontalScrollBar>DontUse</HorizontalScrollBar>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<DataPath>Объект.Товары</DataPath>
-							<SearchStringLocation>None</SearchStringLocation>
-							<ViewStatusLocation>None</ViewStatusLocation>
-							<SearchControlLocation>None</SearchControlLocation>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ТоварыКонтекстноеМеню" id="62"/>
 							<AutoCommandBar name="ТоварыКоманднаяПанель" id="63">
 								<ChildItems>
+									<Button name="ЗагрузитьИзФайла" id="973">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗагрузитьИзФайла</CommandName>
+										<ExtendedTooltip name="ЗагрузитьИзФайлаРасширеннаяПодсказка" id="974"/>
+									</Button>
 									<Button name="ТоварыДобавитьТоварыПоОтбору" id="456">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.ДобавитьТоварыПоОтбору</CommandName>
@@ -2322,9 +2309,6 @@
 									<Width>16</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Wrap>false</Wrap>
-									<DropListButton>false</DropListButton>
-									<ChoiceButton>true</ChoiceButton>
-									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 									<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="67"/>
 									<ExtendedTooltip name="ТоварыНоменклатураExtendedTooltip" id="636"/>
 								</InputField>
@@ -2333,9 +2317,6 @@
 									<Width>16</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Wrap>false</Wrap>
-									<DropListButton>false</DropListButton>
-									<ChoiceButton>true</ChoiceButton>
-									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 									<ContextMenu name="ТоварыХарактеристикаКонтекстноеМеню" id="69"/>
 									<ExtendedTooltip name="ТоварыХарактеристикаExtendedTooltip" id="637"/>
 								</InputField>
@@ -2600,9 +2581,6 @@
 								<ExcludedCommand>Change</ExcludedCommand>
 								<ExcludedCommand>MoveDown</ExcludedCommand>
 							</CommandSet>
-							<SearchStringLocation>None</SearchStringLocation>
-							<ViewStatusLocation>None</ViewStatusLocation>
-							<SearchControlLocation>None</SearchControlLocation>
 							<ContextMenu name="СкидкиНаценкиКонтекстноеМеню" id="874"/>
 							<AutoCommandBar name="СкидкиНаценкиКоманднаяПанель" id="875">
 								<Autofill>false</Autofill>
@@ -2695,6 +2673,7 @@
 							<TitleLocation>None</TitleLocation>
 							<VerticalAlign>Top</VerticalAlign>
 							<Height>2</Height>
+							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>false</VerticalStretch>
 							<ContextMenu name="ИнформацияОДействииСкидокКонтекстноеМеню" id="910"/>
 							<ExtendedTooltip name="ИнформацияОДействииСкидокРасширеннаяПодсказка" id="911"/>
@@ -3237,6 +3216,10 @@
 					<v8:content>Установить интервал</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Use>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.БазовыеПрава">false</xr:Value>
+			</Use>
 			<Picture>
 				<xr:Ref>StdPicture.SetDateInterval</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -3257,6 +3240,10 @@
 					<v8:content>Заполнить вид цен выделенных строк товары</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Use>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.БазовыеПрава">false</xr:Value>
+			</Use>
 			<ModifiesSavedData>true</ModifiesSavedData>
 		</Command>
 		<Command name="ЗаполнитьВидЦенВыделенныхСтрокЦеновыеГруппы" id="3">
@@ -3272,6 +3259,10 @@
 					<v8:content>Заполнить вид цен выделенных строк товары</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Use>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.БазовыеПрава">false</xr:Value>
+			</Use>
 			<ModifiesSavedData>true</ModifiesSavedData>
 		</Command>
 		<Command name="ДобавитьТоварыПоОтбору" id="5">
@@ -3323,6 +3314,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
 			</FunctionalOptions>
+			<ModifiesSavedData>true</ModifiesSavedData>
 		</Command>
 		<Command name="УстановитьСтатусНеДействует" id="9">
 			<Title>
@@ -3340,6 +3332,27 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
 			</FunctionalOptions>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="ЗагрузитьИзФайла" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить из файла</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить из файла</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.OpenFile</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">CCRM_ЗагрузитьИзФайлаПеред</Action>
+			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 	<Parameters>
@@ -3576,7 +3589,6 @@
 														<v8:content>Номер и дата</v8:content>
 													</v8:item>
 												</ToolTip>
-												<HorizontalStretch>false</HorizontalStretch>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -3590,8 +3602,9 @@
 																<v8:content>Номер</v8:content>
 															</v8:item>
 														</Title>
-														<Width>10</Width>
-														<HorizontalStretch>false</HorizontalStretch>
+														<TitleLocation>Left</TitleLocation>
+														<AutoMaxWidth>false</AutoMaxWidth>
+														<MaxWidth>10</MaxWidth>
 														<Wrap>false</Wrap>
 														<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 														<ExtendedTooltip name="НомерExtendedTooltip" id="543"/>
@@ -3604,6 +3617,7 @@
 																<v8:content>от</v8:content>
 															</v8:item>
 														</Title>
+														<TitleLocation>Left</TitleLocation>
 														<Width>14</Width>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ContextMenu name="ДатаКонтекстноеМеню" id="432"/>
@@ -3613,20 +3627,19 @@
 											</UsualGroup>
 											<InputField name="Наименование" id="335">
 												<DataPath>Объект.Description</DataPath>
-												<Width>28</Width>
-												<HorizontalStretch>false</HorizontalStretch>
+												<TitleLocation>Left</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>28</MaxWidth>
 												<Wrap>false</Wrap>
 												<ContextMenu name="НаименованиеКонтекстноеМеню" id="336"/>
 												<ExtendedTooltip name="НаименованиеExtendedTooltip" id="545"/>
 											</InputField>
 											<InputField name="Партнер" id="271">
 												<DataPath>Объект.Партнер</DataPath>
-												<Width>28</Width>
-												<HorizontalStretch>false</HorizontalStretch>
+												<TitleLocation>Left</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>28</MaxWidth>
 												<Wrap>false</Wrap>
-												<DropListButton>false</DropListButton>
-												<ChoiceButton>true</ChoiceButton>
-												<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 												<ChoiceParameters>
 													<app:item name="Отбор.Клиент">
 														<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -3640,12 +3653,10 @@
 											</InputField>
 											<InputField name="Контрагент" id="275">
 												<DataPath>Объект.Контрагент</DataPath>
-												<Width>28</Width>
-												<HorizontalStretch>false</HorizontalStretch>
+												<TitleLocation>Left</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>28</MaxWidth>
 												<Wrap>false</Wrap>
-												<DropListButton>false</DropListButton>
-												<ChoiceButton>true</ChoiceButton>
-												<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.Партнер</xr:Name>
@@ -3658,11 +3669,9 @@
 											</InputField>
 											<InputField name="КонтактноеЛицо" id="495">
 												<DataPath>Объект.КонтактноеЛицо</DataPath>
-												<Width>28</Width>
-												<HorizontalStretch>false</HorizontalStretch>
-												<DropListButton>false</DropListButton>
-												<ChoiceButton>true</ChoiceButton>
-												<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+												<TitleLocation>Left</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>28</MaxWidth>
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.Владелец</xr:Name>
@@ -3681,8 +3690,9 @@
 														<v8:content>Типовое соглашение</v8:content>
 													</v8:item>
 												</Title>
-												<Width>28</Width>
-												<HorizontalStretch>false</HorizontalStretch>
+												<TitleLocation>Left</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>28</MaxWidth>
 												<Wrap>false</Wrap>
 												<DropListButton>false</DropListButton>
 												<ChoiceButton>true</ChoiceButton>
@@ -3692,8 +3702,9 @@
 											</InputField>
 											<InputField name="СегментПартнеров" id="279">
 												<DataPath>Объект.СегментПартнеров</DataPath>
-												<Width>28</Width>
-												<HorizontalStretch>false</HorizontalStretch>
+												<TitleLocation>Left</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>28</MaxWidth>
 												<Wrap>false</Wrap>
 												<QuickChoice>true</QuickChoice>
 												<ChoiceParameters>
@@ -3703,11 +3714,11 @@
 															<Value xsi:type="v8:FixedArray">
 																<v8:Value xsi:type="FormChoiceListDesTimeValue">
 																	<Presentation/>
-																	<Value xsi:type="xr:DesignTimeRef">46d31d4f-5fe3-4cb7-9e5f-34a99dbb7637.2d6ce8b0-5b77-4b73-93e5-829242f25c0d</Value>
+																	<Value xsi:type="xr:DesignTimeRef">Enum.СпособыФормированияСегментов.EnumValue.ПериодическиОбновлять</Value>
 																</v8:Value>
 																<v8:Value xsi:type="FormChoiceListDesTimeValue">
 																	<Presentation/>
-																	<Value xsi:type="xr:DesignTimeRef">46d31d4f-5fe3-4cb7-9e5f-34a99dbb7637.e14b9750-5d04-4861-9a6b-3da72b48a5b5</Value>
+																	<Value xsi:type="xr:DesignTimeRef">Enum.СпособыФормированияСегментов.EnumValue.ФормироватьВручную</Value>
 																</v8:Value>
 															</Value>
 														</app:value>
@@ -3718,11 +3729,10 @@
 											</InputField>
 											<InputField name="СегментНоменклатуры" id="11">
 												<DataPath>Объект.СегментНоменклатуры</DataPath>
-												<Width>28</Width>
-												<HorizontalStretch>false</HorizontalStretch>
+												<TitleLocation>Left</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>28</MaxWidth>
 												<Wrap>false</Wrap>
-												<OpenButton>true</OpenButton>
-												<QuickChoice>true</QuickChoice>
 												<ChoiceParameters>
 													<app:item name="Отбор.СпособФормирования">
 														<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -3730,11 +3740,11 @@
 															<Value xsi:type="v8:FixedArray">
 																<v8:Value xsi:type="FormChoiceListDesTimeValue">
 																	<Presentation/>
-																	<Value xsi:type="xr:DesignTimeRef">46d31d4f-5fe3-4cb7-9e5f-34a99dbb7637.2d6ce8b0-5b77-4b73-93e5-829242f25c0d</Value>
+																	<Value xsi:type="xr:DesignTimeRef">Enum.СпособыФормированияСегментов.EnumValue.ПериодическиОбновлять</Value>
 																</v8:Value>
 																<v8:Value xsi:type="FormChoiceListDesTimeValue">
 																	<Presentation/>
-																	<Value xsi:type="xr:DesignTimeRef">46d31d4f-5fe3-4cb7-9e5f-34a99dbb7637.e14b9750-5d04-4861-9a6b-3da72b48a5b5</Value>
+																	<Value xsi:type="xr:DesignTimeRef">Enum.СпособыФормированияСегментов.EnumValue.ФормироватьВручную</Value>
 																</v8:Value>
 															</Value>
 														</app:value>
@@ -3765,8 +3775,9 @@
 										<ChildItems>
 											<InputField name="Статус" id="346">
 												<DataPath>Объект.Статус</DataPath>
-												<Width>12</Width>
-												<HorizontalStretch>false</HorizontalStretch>
+												<TitleLocation>Left</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>28</MaxWidth>
 												<ContextMenu name="СтатусКонтекстноеМеню" id="347"/>
 												<ExtendedTooltip name="СтатусExtendedTooltip" id="553"/>
 											</InputField>
@@ -3783,7 +3794,6 @@
 														<v8:content>Срок действия</v8:content>
 													</v8:item>
 												</ToolTip>
-												<HorizontalStretch>false</HorizontalStretch>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
@@ -3797,8 +3807,10 @@
 																<v8:content>Период действия с</v8:content>
 															</v8:item>
 														</Title>
-														<Width>10</Width>
-														<HorizontalStretch>false</HorizontalStretch>
+														<TitleLocation>Left</TitleLocation>
+														<AutoMaxWidth>false</AutoMaxWidth>
+														<MaxWidth>10</MaxWidth>
+														<HorizontalStretch>true</HorizontalStretch>
 														<Wrap>false</Wrap>
 														<AutoMarkIncomplete>false</AutoMarkIncomplete>
 														<ContextMenu name="ДатаНачалаДействияКонтекстноеМеню" id="101"/>
@@ -3812,8 +3824,10 @@
 																<v8:content>по</v8:content>
 															</v8:item>
 														</Title>
-														<Width>10</Width>
-														<HorizontalStretch>false</HorizontalStretch>
+														<TitleLocation>Left</TitleLocation>
+														<AutoMaxWidth>false</AutoMaxWidth>
+														<MaxWidth>10</MaxWidth>
+														<HorizontalStretch>true</HorizontalStretch>
 														<Wrap>false</Wrap>
 														<ContextMenu name="ДатаОкончанияДействияКонтекстноеМеню" id="103"/>
 														<ExtendedTooltip name="ДатаОкончанияДействияExtendedTooltip" id="556"/>
@@ -3828,8 +3842,9 @@
 											</UsualGroup>
 											<InputField name="ХозяйственнаяОперация" id="408">
 												<DataPath>Объект.ХозяйственнаяОперация</DataPath>
-												<Width>29</Width>
-												<HorizontalStretch>false</HorizontalStretch>
+												<TitleLocation>Left</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>28</MaxWidth>
 												<ListChoiceMode>true</ListChoiceMode>
 												<ChoiceList>
 													<xr:Item>
@@ -3855,8 +3870,9 @@
 											</InputField>
 											<InputField name="Организация" id="277">
 												<DataPath>Объект.Организация</DataPath>
-												<Width>29</Width>
-												<HorizontalStretch>false</HorizontalStretch>
+												<TitleLocation>Left</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>28</MaxWidth>
 												<Wrap>false</Wrap>
 												<AutoMarkIncomplete>false</AutoMarkIncomplete>
 												<ContextMenu name="ОрганизацияКонтекстноеМеню" id="278"/>
@@ -3864,8 +3880,9 @@
 											</InputField>
 											<InputField name="Менеджер" id="107">
 												<DataPath>Объект.Менеджер</DataPath>
-												<Width>29</Width>
-												<HorizontalStretch>false</HorizontalStretch>
+												<TitleLocation>Left</TitleLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>28</MaxWidth>
 												<Wrap>false</Wrap>
 												<ContextMenu name="МенеджерКонтекстноеМеню" id="108"/>
 												<ExtendedTooltip name="МенеджерExtendedTooltip" id="656"/>
@@ -3876,9 +3893,9 @@
 							</UsualGroup>
 							<InputField name="Комментарий" id="458">
 								<DataPath>Объект.Комментарий</DataPath>
-								<TitleLocation>Top</TitleLocation>
-								<Width>87</Width>
-								<HorizontalStretch>false</HorizontalStretch>
+								<TitleLocation>Left</TitleLocation>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>70</MaxWidth>
 								<VerticalStretch>false</VerticalStretch>
 								<Wrap>false</Wrap>
 								<ChoiceButton>false</ChoiceButton>
@@ -3934,10 +3951,9 @@
 												<v8:content>Параметры лево</v8:content>
 											</v8:item>
 										</ToolTip>
-										<Width>51</Width>
-										<HorizontalStretch>false</HorizontalStretch>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
+										<United>false</United>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаПараметрыЛевоРасширеннаяПодсказка" id="797"/>
 										<ChildItems>
@@ -3992,14 +4008,41 @@
 																		<v8:content>Группа договоры контрагентов порядок расчетов</v8:content>
 																	</v8:item>
 																</ToolTip>
-																<Width>55</Width>
-																<HorizontalStretch>false</HorizontalStretch>
 																<Group>Vertical</Group>
 																<Representation>None</Representation>
 																<ChildItemsWidth>LeftWide</ChildItemsWidth>
 																<ShowTitle>false</ShowTitle>
 																<ExtendedTooltip name="ГруппаДоговорыКонтрагентовПорядокРасчетовExtendedTooltip" id="594"/>
 																<ChildItems>
+																	<RadioButtonField name="ИспользуютсяДоговорыКонтрагентов" id="515">
+																		<DataPath>ИспользуютсяДоговорыКонтрагентов</DataPath>
+																		<Title>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Требуется</v8:content>
+																			</v8:item>
+																		</Title>
+																		<TitleLocation>None</TitleLocation>
+																		<RadioButtonType>Auto</RadioButtonType>
+																		<ColumnsCount>1</ColumnsCount>
+																		<ChoiceList>
+																			<xr:Item>
+																				<xr:Presentation/>
+																				<xr:CheckState>0</xr:CheckState>
+																				<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																					<Presentation>
+																						<v8:item>
+																							<v8:lang>ru</v8:lang>
+																							<v8:content>Требуется указание договора, порядок расчетов определяется в договоре</v8:content>
+																						</v8:item>
+																					</Presentation>
+																					<Value xsi:type="xs:decimal">1</Value>
+																				</xr:Value>
+																			</xr:Item>
+																		</ChoiceList>
+																		<ContextMenu name="ИспользуютсяДоговорыКонтрагентовКонтекстноеМеню" id="516"/>
+																		<ExtendedTooltip name="ИспользуютсяДоговорыКонтрагентовExtendedTooltip" id="599"/>
+																	</RadioButtonField>
 																	<RadioButtonField name="НеИспользуютсяДоговорыКонтрагентов" id="474">
 																		<DataPath>ИспользуютсяДоговорыКонтрагентов</DataPath>
 																		<TitleLocation>None</TitleLocation>
@@ -4030,74 +4073,79 @@
 																				<v8:content>Группа порядок расчетов</v8:content>
 																			</v8:item>
 																		</ToolTip>
-																		<HorizontalStretch>false</HorizontalStretch>
 																		<Group>Horizontal</Group>
 																		<Representation>None</Representation>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаПорядокРасчетовРасширеннаяПодсказка" id="804"/>
 																		<ChildItems>
 																			<LabelDecoration name="ОтступПорядокРасчетов" id="805">
-																				<HorizontalStretch>false</HorizontalStretch>
+																				<Width>1</Width>
 																				<ContextMenu name="ОтступПорядокРасчетовКонтекстноеМеню" id="806"/>
 																				<ExtendedTooltip name="ОтступПорядокРасчетовРасширеннаяПодсказка" id="807"/>
 																			</LabelDecoration>
-																			<InputField name="ПорядокРасчетов" id="501">
-																				<DataPath>Объект.ПорядокРасчетов</DataPath>
-																				<TitleLocation>None</TitleLocation>
-																				<HorizontalStretch>false</HorizontalStretch>
-																				<ListChoiceMode>true</ListChoiceMode>
-																				<ChoiceList>
-																					<xr:Item>
-																						<xr:Presentation/>
-																						<xr:CheckState>0</xr:CheckState>
-																						<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																							<Presentation/>
-																							<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоЗаказамНакладным</Value>
-																						</xr:Value>
-																					</xr:Item>
-																					<xr:Item>
-																						<xr:Presentation/>
-																						<xr:CheckState>0</xr:CheckState>
-																						<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																							<Presentation/>
-																							<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоНакладным</Value>
-																						</xr:Value>
-																					</xr:Item>
-																				</ChoiceList>
-																				<ContextMenu name="ПорядокРасчетовКонтекстноеМеню" id="502"/>
-																				<ExtendedTooltip name="ПорядокРасчетовExtendedTooltip" id="597"/>
-																			</InputField>
+																			<UsualGroup name="ГруппаРеквизитыДоговора" id="960">
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа реквизиты договора</v8:content>
+																					</v8:item>
+																				</Title>
+																				<ToolTip>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа реквизиты договора</v8:content>
+																					</v8:item>
+																				</ToolTip>
+																				<Group>Vertical</Group>
+																				<Representation>None</Representation>
+																				<ShowTitle>false</ShowTitle>
+																				<ExtendedTooltip name="ГруппаРеквизитыДоговораРасширеннаяПодсказка" id="961"/>
+																				<ChildItems>
+																					<InputField name="ВалютаВзаиморасчетов" id="962">
+																						<DataPath>Объект.ВалютаВзаиморасчетов</DataPath>
+																						<AutoMaxWidth>false</AutoMaxWidth>
+																						<MaxWidth>8</MaxWidth>
+																						<HorizontalStretch>false</HorizontalStretch>
+																						<ContextMenu name="ВалютаВзаиморасчетовКонтекстноеМеню" id="963"/>
+																						<ExtendedTooltip name="ВалютаВзаиморасчетовРасширеннаяПодсказка" id="964"/>
+																					</InputField>
+																					<InputField name="ПорядокРасчетов" id="965">
+																						<DataPath>Объект.ПорядокРасчетов</DataPath>
+																						<TitleLocation>Left</TitleLocation>
+																						<HorizontalStretch>false</HorizontalStretch>
+																						<ListChoiceMode>true</ListChoiceMode>
+																						<ChoiceList>
+																							<xr:Item>
+																								<xr:Presentation/>
+																								<xr:CheckState>0</xr:CheckState>
+																								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																									<Presentation/>
+																									<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоЗаказамНакладным</Value>
+																								</xr:Value>
+																							</xr:Item>
+																							<xr:Item>
+																								<xr:Presentation/>
+																								<xr:CheckState>0</xr:CheckState>
+																								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																									<Presentation/>
+																									<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоНакладным</Value>
+																								</xr:Value>
+																							</xr:Item>
+																						</ChoiceList>
+																						<ContextMenu name="ПорядокРасчетовКонтекстноеМеню" id="966"/>
+																						<ExtendedTooltip name="ПорядокРасчетовРасширеннаяПодсказка" id="967"/>
+																					</InputField>
+																					<InputField name="ПорядокОплаты" id="968">
+																						<DataPath>Объект.ПорядокОплаты</DataPath>
+																						<HorizontalStretch>false</HorizontalStretch>
+																						<ListChoiceMode>true</ListChoiceMode>
+																						<ContextMenu name="ПорядокОплатыКонтекстноеМеню" id="969"/>
+																						<ExtendedTooltip name="ПорядокОплатыРасширеннаяПодсказка" id="970"/>
+																					</InputField>
+																				</ChildItems>
+																			</UsualGroup>
 																		</ChildItems>
 																	</UsualGroup>
-																	<RadioButtonField name="ИспользуютсяДоговорыКонтрагентов" id="515">
-																		<DataPath>ИспользуютсяДоговорыКонтрагентов</DataPath>
-																		<Title>
-																			<v8:item>
-																				<v8:lang>ru</v8:lang>
-																				<v8:content>Требуется</v8:content>
-																			</v8:item>
-																		</Title>
-																		<TitleLocation>None</TitleLocation>
-																		<RadioButtonType>Auto</RadioButtonType>
-																		<ColumnsCount>1</ColumnsCount>
-																		<ChoiceList>
-																			<xr:Item>
-																				<xr:Presentation/>
-																				<xr:CheckState>0</xr:CheckState>
-																				<xr:Value xsi:type="FormChoiceListDesTimeValue">
-																					<Presentation>
-																						<v8:item>
-																							<v8:lang>ru</v8:lang>
-																							<v8:content>Требуется указание договора, порядок расчетов определяется в договоре</v8:content>
-																						</v8:item>
-																					</Presentation>
-																					<Value xsi:type="xs:decimal">1</Value>
-																				</xr:Value>
-																			</xr:Item>
-																		</ChoiceList>
-																		<ContextMenu name="ИспользуютсяДоговорыКонтрагентовКонтекстноеМеню" id="516"/>
-																		<ExtendedTooltip name="ИспользуютсяДоговорыКонтрагентовExtendedTooltip" id="599"/>
-																	</RadioButtonField>
 																</ChildItems>
 															</UsualGroup>
 															<UsualGroup name="ГруппаГрафикОплатыИнформационнаяНадпись" id="422">
@@ -4119,43 +4167,19 @@
 																<ShowTitle>false</ShowTitle>
 																<ExtendedTooltip name="ГруппаГрафикОплатыИнформационнаяНадписьExtendedTooltip" id="586"/>
 																<ChildItems>
-																	<InputField name="ПорядокОплаты" id="466">
-																		<DataPath>Объект.ПорядокОплаты</DataPath>
-																		<HorizontalStretch>false</HorizontalStretch>
-																		<ContextMenu name="ПорядокОплатыКонтекстноеМеню" id="467"/>
-																		<ExtendedTooltip name="ПорядокОплатыExtendedTooltip" id="592"/>
-																	</InputField>
-																	<UsualGroup name="ГруппаОплата" id="490">
-																		<Title>
-																			<v8:item>
-																				<v8:lang>ru</v8:lang>
-																				<v8:content>Группа оплата</v8:content>
-																			</v8:item>
-																		</Title>
-																		<ToolTip>
-																			<v8:item>
-																				<v8:lang>ru</v8:lang>
-																				<v8:content>Группа оплата</v8:content>
-																			</v8:item>
-																		</ToolTip>
-																		<Group>Horizontal</Group>
-																		<Representation>None</Representation>
-																		<ShowTitle>false</ShowTitle>
-																		<ExtendedTooltip name="ГруппаОплатаExtendedTooltip" id="587"/>
-																		<ChildItems>
-																			<LabelField name="НадписьОплата" id="493">
-																				<DataPath>НадписьОплата</DataPath>
-																				<TitleLocation>None</TitleLocation>
-																				<Height>1</Height>
-																				<Hiperlink>true</Hiperlink>
-																				<ContextMenu name="НадписьОплатаКонтекстноеМеню" id="494"/>
-																				<ExtendedTooltip name="НадписьОплатаРасширеннаяПодсказка" id="589"/>
-																			</LabelField>
-																		</ChildItems>
-																	</UsualGroup>
+																	<LabelField name="НадписьОплата" id="493">
+																		<DataPath>НадписьОплата</DataPath>
+																		<TitleLocation>None</TitleLocation>
+																		<Height>1</Height>
+																		<Hiperlink>true</Hiperlink>
+																		<ContextMenu name="НадписьОплатаКонтекстноеМеню" id="494"/>
+																		<ExtendedTooltip name="НадписьОплатаРасширеннаяПодсказка" id="589"/>
+																	</LabelField>
 																	<InputField name="ГрафикОплаты" id="27">
 																		<DataPath>Объект.ГрафикОплаты</DataPath>
-																		<HorizontalStretch>false</HorizontalStretch>
+																		<TitleLocation>Left</TitleLocation>
+																		<AutoMaxWidth>false</AutoMaxWidth>
+																		<MaxWidth>27</MaxWidth>
 																		<Wrap>false</Wrap>
 																		<AutoMarkIncomplete>false</AutoMarkIncomplete>
 																		<ContextMenu name="ГрафикОплатыКонтекстноеМеню" id="28"/>
@@ -4206,7 +4230,9 @@
 														<ChildItems>
 															<InputField name="Склад" id="286">
 																<DataPath>Объект.Склад</DataPath>
-																<HorizontalStretch>false</HorizontalStretch>
+																<TitleLocation>Left</TitleLocation>
+																<AutoMaxWidth>false</AutoMaxWidth>
+																<MaxWidth>27</MaxWidth>
 																<Wrap>false</Wrap>
 																<DropListButton>false</DropListButton>
 																<ChoiceButton>true</ChoiceButton>
@@ -4248,6 +4274,7 @@
 																				<v8:content>Срок поставки</v8:content>
 																			</v8:item>
 																		</Title>
+																		<TitleLocation>Left</TitleLocation>
 																		<Width>5</Width>
 																		<HorizontalStretch>false</HorizontalStretch>
 																		<Wrap>false</Wrap>
@@ -4256,6 +4283,7 @@
 																		<ExtendedTooltip name="СрокПоставкиExtendedTooltip" id="571"/>
 																	</InputField>
 																	<LabelDecoration name="СрокПоставкиДекорация" id="393">
+																		<AutoMaxWidth>false</AutoMaxWidth>
 																		<SkipOnInput>false</SkipOnInput>
 																		<Title formatted="false">
 																			<v8:item>
@@ -4373,6 +4401,7 @@
 																		<v8:content>Комиссионное вознаграждение</v8:content>
 																	</v8:item>
 																</Title>
+																<TitleLocation>Left</TitleLocation>
 																<Width>30</Width>
 																<HorizontalStretch>false</HorizontalStretch>
 																<ContextMenu name="СпособРасчетаВознагражденияКонтекстноеМеню" id="412"/>
@@ -4398,6 +4427,7 @@
 																<ChildItems>
 																	<InputField name="ПроцентВознаграждения" id="413">
 																		<DataPath>Объект.ПроцентВознаграждения</DataPath>
+																		<TitleLocation>Left</TitleLocation>
 																		<ContextMenu name="ПроцентВознагражденияКонтекстноеМеню" id="414"/>
 																		<ExtendedTooltip name="ПроцентВознагражденияExtendedTooltip" id="577"/>
 																	</InputField>
@@ -4416,12 +4446,6 @@
 											</UsualGroup>
 										</ChildItems>
 									</UsualGroup>
-									<LabelDecoration name="ОтступМеждуКолонкамиПараметры" id="800">
-										<Width>1</Width>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ContextMenu name="ОтступМеждуКолонкамиПараметрыКонтекстноеМеню" id="801"/>
-										<ExtendedTooltip name="ОтступМеждуКолонкамиПараметрыРасширеннаяПодсказка" id="802"/>
-									</LabelDecoration>
 									<UsualGroup name="ГруппаПараметрыПраво" id="798">
 										<Title>
 											<v8:item>
@@ -4437,6 +4461,7 @@
 										</ToolTip>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
+										<United>false</United>
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаПараметрыПравоРасширеннаяПодсказка" id="799"/>
 										<ChildItems>
@@ -4490,7 +4515,6 @@
 																		<v8:content>Валюта, цена включает НДС</v8:content>
 																	</v8:item>
 																</ToolTip>
-																<HorizontalStretch>false</HorizontalStretch>
 																<Group>Horizontal</Group>
 																<Representation>None</Representation>
 																<ShowTitle>false</ShowTitle>
@@ -4498,6 +4522,7 @@
 																<ChildItems>
 																	<InputField name="Валюта" id="15">
 																		<DataPath>Объект.Валюта</DataPath>
+																		<TitleLocation>Left</TitleLocation>
 																		<Width>5</Width>
 																		<HorizontalStretch>false</HorizontalStretch>
 																		<Wrap>false</Wrap>
@@ -4543,7 +4568,9 @@
 																<ChildItems>
 																	<InputField name="ВидЦен" id="19">
 																		<DataPath>Объект.ВидЦен</DataPath>
-																		<HorizontalStretch>false</HorizontalStretch>
+																		<TitleLocation>Left</TitleLocation>
+																		<AutoMaxWidth>false</AutoMaxWidth>
+																		<MaxWidth>25</MaxWidth>
 																		<Wrap>false</Wrap>
 																		<OpenButton>false</OpenButton>
 																		<QuickChoice>true</QuickChoice>
@@ -4623,12 +4650,14 @@
 																	</CheckBoxField>
 																	<InputField name="ПроцентРучнойСкидки" id="423">
 																		<DataPath>Объект.ПроцентРучнойСкидки</DataPath>
+																		<TitleLocation>Left</TitleLocation>
 																		<SpinButton>true</SpinButton>
 																		<ContextMenu name="ПроцентРучнойСкидкиКонтекстноеМеню" id="424"/>
 																		<ExtendedTooltip name="ПроцентРучнойСкидкиExtendedTooltip" id="653"/>
 																	</InputField>
 																	<InputField name="ПроцентРучнойНаценки" id="425">
 																		<DataPath>Объект.ПроцентРучнойНаценки</DataPath>
+																		<TitleLocation>Left</TitleLocation>
 																		<SpinButton>true</SpinButton>
 																		<ContextMenu name="ПроцентРучнойНаценкиКонтекстноеМеню" id="426"/>
 																		<ExtendedTooltip name="ПроцентРучнойНаценкиExtendedTooltip" id="654"/>
@@ -4711,13 +4740,15 @@
 																<ExtendedTooltip name="ГруппаЗначениеНалогообложенияРасширеннаяПодсказка" id="686"/>
 																<ChildItems>
 																	<LabelDecoration name="ОтступНалогообложениеНДС" id="814">
+																		<Width>1</Width>
 																		<ContextMenu name="ОтступНалогообложениеНДСКонтекстноеМеню" id="815"/>
 																		<ExtendedTooltip name="ОтступНалогообложениеНДСРасширеннаяПодсказка" id="816"/>
 																	</LabelDecoration>
 																	<InputField name="НалогообложениеНДС" id="390">
 																		<DataPath>Объект.НалогообложениеНДС</DataPath>
 																		<TitleLocation>None</TitleLocation>
-																		<HorizontalStretch>false</HorizontalStretch>
+																		<AutoMaxWidth>false</AutoMaxWidth>
+																		<MaxWidth>24</MaxWidth>
 																		<ListChoiceMode>true</ListChoiceMode>
 																		<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																		<ChoiceList>
@@ -4971,25 +5002,15 @@
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаРежимаРасчетаДатыВозвратаРасширеннаяПодсказка" id="664"/>
 																		<ChildItems>
-																			<LabelDecoration name="ЗаголовокРежимаРасчетаДатыВозврата" id="665">
-																				<Title formatted="false">
-																					<v8:item>
-																						<v8:lang>ru</v8:lang>
-																						<v8:content>Рассчитывать дату возврата тары по:</v8:content>
-																					</v8:item>
-																				</Title>
-																				<ToolTip>
-																					<v8:item>
-																						<v8:lang>ru</v8:lang>
-																						<v8:content>Определяет способ расчета даты возвраты многооборотной тары клиентом: по всем дням или по календарю предприятия</v8:content>
-																					</v8:item>
-																				</ToolTip>
-																				<ContextMenu name="ЗаголовокРежимаРасчетаДатыВозвратаКонтекстноеМеню" id="666"/>
-																				<ExtendedTooltip name="ЗаголовокРежимаРасчетаДатыВозвратаРасширеннаяПодсказка" id="667"/>
-																			</LabelDecoration>
 																			<RadioButtonField name="НеРассчитыватьДатуВозвратаТарыПоКалендарю" id="668">
 																				<DataPath>РассчитыватьДатуВозвратаТарыПоКалендарю</DataPath>
-																				<TitleLocation>None</TitleLocation>
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Рассчитывать дату возврата тары по</v8:content>
+																					</v8:item>
+																				</Title>
+																				<TitleLocation>Top</TitleLocation>
 																				<ToolTip>
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
@@ -5050,6 +5071,7 @@
 																				<ExtendedTooltip name="ГруппаКалендарьВозвратаТарыРасширеннаяПодсказка" id="678"/>
 																				<ChildItems>
 																					<LabelDecoration name="ОтступКалендарьВозвратТары" id="811">
+																						<Width>1</Width>
 																						<ContextMenu name="ОтступКалендарьВозвратТарыКонтекстноеМеню" id="812"/>
 																						<ExtendedTooltip name="ОтступКалендарьВозвратТарыРасширеннаяПодсказка" id="813"/>
 																					</LabelDecoration>
@@ -5146,6 +5168,7 @@
 																				<v8:content>Сумма</v8:content>
 																			</v8:item>
 																		</Title>
+																		<TitleLocation>Left</TitleLocation>
 																		<Width>12</Width>
 																		<HorizontalStretch>false</HorizontalStretch>
 																		<Wrap>false</Wrap>
@@ -5166,6 +5189,7 @@
 															</UsualGroup>
 															<InputField name="КоличествоПериодов" id="129">
 																<DataPath>Объект.КоличествоПериодов</DataPath>
+																<TitleLocation>Left</TitleLocation>
 																<Width>12</Width>
 																<Wrap>false</Wrap>
 																<SpinButton>true</SpinButton>
@@ -5174,6 +5198,7 @@
 															</InputField>
 															<InputField name="Период" id="35">
 																<DataPath>Объект.Период</DataPath>
+																<TitleLocation>Left</TitleLocation>
 																<Width>12</Width>
 																<HorizontalStretch>false</HorizontalStretch>
 																<Wrap>false</Wrap>
@@ -5257,6 +5282,7 @@
 														<ChildItems>
 															<InputField name="ГруппаФинансовогоУчета" id="464">
 																<DataPath>Объект.ГруппаФинансовогоУчета</DataPath>
+																<TitleLocation>Left</TitleLocation>
 																<HorizontalStretch>false</HorizontalStretch>
 																<ContextMenu name="ГруппаФинансовогоУчетаКонтекстноеМеню" id="465"/>
 																<ExtendedTooltip name="ГруппаФинансовогоУчетаExtendedTooltip" id="593"/>
@@ -5269,6 +5295,7 @@
 																		<v8:content>Статья ДДС</v8:content>
 																	</v8:item>
 																</Title>
+																<TitleLocation>Left</TitleLocation>
 																<HorizontalStretch>false</HorizontalStretch>
 																<DropListButton>false</DropListButton>
 																<ChoiceButton>true</ChoiceButton>
@@ -5277,7 +5304,7 @@
 																	<app:item name="Отбор.ХозяйственнаяОперация">
 																		<app:value xsi:type="FormChoiceListDesTimeValue">
 																			<Presentation/>
-																			<Value xsi:type="xr:DesignTimeRef">ae0f3889-6e23-4a7a-bf5d-cd197ab78fb7.10db127e-a377-4878-8ead-955d0ff48e4d</Value>
+																			<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеОплатыОтКлиента</Value>
 																		</app:value>
 																	</app:item>
 																</ChoiceParameters>
@@ -5286,10 +5313,8 @@
 															</InputField>
 															<InputField name="НаправлениеДеятельности" id="954">
 																<DataPath>Объект.НаправлениеДеятельности</DataPath>
+																<TitleLocation>Left</TitleLocation>
 																<HorizontalStretch>false</HorizontalStretch>
-																<DropListButton>false</DropListButton>
-																<ChoiceButton>true</ChoiceButton>
-																<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 																<ContextMenu name="НаправлениеДеятельностиКонтекстноеМеню" id="955"/>
 																<ExtendedTooltip name="НаправлениеДеятельностиРасширеннаяПодсказка" id="956"/>
 															</InputField>
@@ -5311,13 +5336,13 @@
 														<v8:content>Группа контролируемые сделки</v8:content>
 													</v8:item>
 												</ToolTip>
-												<HorizontalStretch>false</HorizontalStretch>
 												<Group>Vertical</Group>
 												<Representation>NormalSeparation</Representation>
 												<ExtendedTooltip name="ГруппаКонтролируемыеСделкиРасширеннаяПодсказка" id="919"/>
 												<ChildItems>
 													<InputField name="КодНаименованияСделки" id="920">
 														<DataPath>Объект.КодНаименованияСделки</DataPath>
+														<TitleLocation>Left</TitleLocation>
 														<Width>15</Width>
 														<ListChoiceMode>true</ListChoiceMode>
 														<DropListWidth>45</DropListWidth>
@@ -5326,6 +5351,7 @@
 													</InputField>
 													<InputField name="СпособОпределенияЦеныСделки" id="923">
 														<DataPath>Объект.СпособОпределенияЦеныСделки</DataPath>
+														<TitleLocation>Left</TitleLocation>
 														<Width>15</Width>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ContextMenu name="СпособОпределенияЦеныСделкиКонтекстноеМеню" id="924"/>
@@ -5333,6 +5359,7 @@
 													</InputField>
 													<InputField name="КодУсловийПоставки" id="926">
 														<DataPath>Объект.КодУсловийПоставки</DataPath>
+														<TitleLocation>Left</TitleLocation>
 														<DropListButton>true</DropListButton>
 														<DropListWidth>35</DropListWidth>
 														<ContextMenu name="КодУсловийПоставкиКонтекстноеМеню" id="927"/>
@@ -5354,7 +5381,7 @@
 													</v8:item>
 												</ToolTip>
 												<Group>Vertical</Group>
-												<Representation>None</Representation>
+												<Representation>NormalSeparation</Representation>
 												<ChildItemsWidth>LeftWide</ChildItemsWidth>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаДоступностьСоглашенияРеквизитыРасширеннаяПодсказка" id="612"/>
@@ -5398,7 +5425,6 @@
 																<v8:content>Страницы планы закупок</v8:content>
 															</v8:item>
 														</ToolTip>
-														<HorizontalStretch>false</HorizontalStretch>
 														<PagesRepresentation>None</PagesRepresentation>
 														<ExtendedTooltip name="СтраницыПланыЗакупокExtendedTooltip" id="615"/>
 														<ChildItems>
@@ -5408,11 +5434,17 @@
 																<ChildItems>
 																	<InputField name="СценарийПланирования" id="519">
 																		<DataPath>Объект.СценарийПланирования</DataPath>
+																		<TitleLocation>Left</TitleLocation>
+																		<AutoMaxWidth>false</AutoMaxWidth>
+																		<MaxWidth>22</MaxWidth>
 																		<ContextMenu name="СценарийПланированияКонтекстноеМеню" id="520"/>
 																		<ExtendedTooltip name="СценарийПланированияExtendedTooltip" id="617"/>
 																	</InputField>
 																	<InputField name="ВидПлана" id="521">
 																		<DataPath>Объект.ВидПлана</DataPath>
+																		<TitleLocation>Left</TitleLocation>
+																		<AutoMaxWidth>false</AutoMaxWidth>
+																		<MaxWidth>22</MaxWidth>
 																		<ContextMenu name="ВидПланаКонтекстноеМеню" id="522"/>
 																		<ExtendedTooltip name="ВидПланаExtendedTooltip" id="618"/>
 																	</InputField>
@@ -5436,6 +5468,18 @@
 															</Page>
 														</ChildItems>
 													</Pages>
+													<UsualGroup name="ГруппаТорговыеПредложения" id="971">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>1С:Бизнес-сеть</v8:content>
+															</v8:item>
+														</Title>
+														<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+														<Group>Vertical</Group>
+														<Representation>NormalSeparation</Representation>
+														<ExtendedTooltip name="ГруппаТорговыеПредложенияРасширеннаяПодсказка" id="972"/>
+													</UsualGroup>
 												</ChildItems>
 											</UsualGroup>
 										</ChildItems>
@@ -5478,9 +5522,6 @@
 								<HorizontalScrollBar>DontUse</HorizontalScrollBar>
 								<AutoInsertNewRow>true</AutoInsertNewRow>
 								<DataPath>Объект.ЦеновыеГруппы</DataPath>
-								<SearchStringLocation>None</SearchStringLocation>
-								<ViewStatusLocation>None</ViewStatusLocation>
-								<SearchControlLocation>None</SearchControlLocation>
 								<RowFilter xsi:nil="true"/>
 								<ContextMenu name="ЦеновыеГруппыКонтекстноеМеню" id="44"/>
 								<AutoCommandBar name="ЦеновыеГруппыКоманднаяПанель" id="45">
@@ -5592,9 +5633,6 @@
 								<HorizontalScrollBar>DontUse</HorizontalScrollBar>
 								<AutoInsertNewRow>true</AutoInsertNewRow>
 								<DataPath>Объект.Товары</DataPath>
-								<SearchStringLocation>None</SearchStringLocation>
-								<ViewStatusLocation>None</ViewStatusLocation>
-								<SearchControlLocation>None</SearchControlLocation>
 								<RowFilter xsi:nil="true"/>
 								<ContextMenu name="ТоварыКонтекстноеМеню" id="62"/>
 								<AutoCommandBar name="ТоварыКоманднаяПанель" id="63">
@@ -5657,9 +5695,6 @@
 										<Width>16</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<Wrap>false</Wrap>
-										<DropListButton>false</DropListButton>
-										<ChoiceButton>true</ChoiceButton>
-										<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 										<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="67"/>
 										<ExtendedTooltip name="ТоварыНоменклатураExtendedTooltip" id="636"/>
 									</InputField>
@@ -5668,9 +5703,6 @@
 										<Width>16</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<Wrap>false</Wrap>
-										<DropListButton>false</DropListButton>
-										<ChoiceButton>true</ChoiceButton>
-										<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 										<ContextMenu name="ТоварыХарактеристикаКонтекстноеМеню" id="69"/>
 										<ExtendedTooltip name="ТоварыХарактеристикаExtendedTooltip" id="637"/>
 									</InputField>
@@ -5934,9 +5966,6 @@
 									<ExcludedCommand>Change</ExcludedCommand>
 									<ExcludedCommand>MoveDown</ExcludedCommand>
 								</CommandSet>
-								<SearchStringLocation>None</SearchStringLocation>
-								<ViewStatusLocation>None</ViewStatusLocation>
-								<SearchControlLocation>None</SearchControlLocation>
 								<ContextMenu name="СкидкиНаценкиКонтекстноеМеню" id="874"/>
 								<AutoCommandBar name="СкидкиНаценкиКоманднаяПанель" id="875">
 									<Autofill>false</Autofill>
@@ -6028,7 +6057,9 @@
 								<DataPath>ИнформацияОДействииСкидок</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<VerticalAlign>Top</VerticalAlign>
+								<AutoMaxWidth>false</AutoMaxWidth>
 								<Height>2</Height>
+								<HorizontalStretch>true</HorizontalStretch>
 								<VerticalStretch>false</VerticalStretch>
 								<ContextMenu name="ИнформацияОДействииСкидокКонтекстноеМеню" id="910"/>
 								<ExtendedTooltip name="ИнформацияОДействииСкидокРасширеннаяПодсказка" id="911"/>
@@ -6571,6 +6602,10 @@
 						<v8:content>Установить интервал</v8:content>
 					</v8:item>
 				</ToolTip>
+				<Use>
+					<xr:Common>true</xr:Common>
+					<xr:Value name="Role.БазовыеПрава">false</xr:Value>
+				</Use>
 				<Picture>
 					<xr:Ref>StdPicture.SetDateInterval</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -6591,6 +6626,10 @@
 						<v8:content>Заполнить вид цен выделенных строк товары</v8:content>
 					</v8:item>
 				</ToolTip>
+				<Use>
+					<xr:Common>true</xr:Common>
+					<xr:Value name="Role.БазовыеПрава">false</xr:Value>
+				</Use>
 				<ModifiesSavedData>true</ModifiesSavedData>
 			</Command>
 			<Command name="ЗаполнитьВидЦенВыделенныхСтрокЦеновыеГруппы" id="3">
@@ -6606,6 +6645,10 @@
 						<v8:content>Заполнить вид цен выделенных строк товары</v8:content>
 					</v8:item>
 				</ToolTip>
+				<Use>
+					<xr:Common>true</xr:Common>
+					<xr:Value name="Role.БазовыеПрава">false</xr:Value>
+				</Use>
 				<ModifiesSavedData>true</ModifiesSavedData>
 			</Command>
 			<Command name="ДобавитьТоварыПоОтбору" id="5">
@@ -6657,6 +6700,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
 				</FunctionalOptions>
+				<ModifiesSavedData>true</ModifiesSavedData>
 			</Command>
 			<Command name="УстановитьСтатусНеДействует" id="9">
 				<Title>
@@ -6674,6 +6718,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьАвтоматическиеСкидкиВПродажах</Item>
 				</FunctionalOptions>
+				<ModifiesSavedData>true</ModifiesSavedData>
 			</Command>
 		</Commands>
 		<Parameters>

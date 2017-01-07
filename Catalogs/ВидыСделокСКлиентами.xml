@@ -26,6 +26,16 @@
 		<Properties>
 			<Name>ВидыСделокСКлиентами</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultObjectForm/>
+			<DefaultFolderForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
 		</Properties>
 		<ChildObjects>
 			<TabularSection uuid="9256138d-03ae-427f-876c-64abd18175ef">

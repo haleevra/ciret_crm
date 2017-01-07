@@ -543,6 +543,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="97105c18-f278-4fed-8f32-67575d539275">
+				<Properties>
+					<Name>ВалютаВзаиморасчетов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="bac17c4e-664d-4e0c-9eab-8f547c8fd3da">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.СоглашенияСКлиентами.ЦеновыеГруппы" category="TabularSection">

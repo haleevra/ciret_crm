@@ -18,8 +18,6 @@
 		<Properties>
 			<Name>Взаимодействия</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<DefaultForm/>
-			<AuxiliaryForm/>
 			<RegisteredDocuments>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Встреча</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗапланированноеВзаимодействие</xr:Item>

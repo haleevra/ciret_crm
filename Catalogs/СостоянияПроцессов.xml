@@ -28,6 +28,16 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<CodeLength>0</CodeLength>
 			<CodeType>String</CodeType>
+			<DefaultObjectForm/>
+			<DefaultFolderForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
 		</Properties>
 		<ChildObjects/>
 	</Catalog>

@@ -34,6 +34,10 @@
 		<Properties>
 			<Name>ДанныеПроизводственногоКалендаря</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<AuxiliaryRecordForm/>
+			<AuxiliaryListForm/>
 		</Properties>
 		<ChildObjects>
 			<Dimension uuid="d7315b3b-3d2b-44b4-bac7-2b066d4279a9">

@@ -26,6 +26,16 @@
 		<Properties>
 			<Name>НоменклатураПрисоединенныеФайлы</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultObjectForm/>
+			<DefaultFolderForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
 		</Properties>
 		<ChildObjects/>
 	</Catalog>

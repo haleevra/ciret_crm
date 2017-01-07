@@ -22,7 +22,6 @@
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
-			<DefaultForm/>
 		</Properties>
 	</Constant>
 </MetaDataObject>

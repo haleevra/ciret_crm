@@ -34,6 +34,10 @@
 		<Properties>
 			<Name>СтатистикаСделокСКлиентами</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<AuxiliaryRecordForm/>
+			<AuxiliaryListForm/>
 		</Properties>
 		<ChildObjects>
 			<Resource uuid="883d9a0c-b667-4cda-b74a-4ea5b74c989e">

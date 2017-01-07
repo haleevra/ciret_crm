@@ -26,6 +26,16 @@
 		<Properties>
 			<Name>СделкиСКлиентами</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultObjectForm/>
+			<DefaultFolderForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="f9aad294-7055-4367-9f2d-108240915067">

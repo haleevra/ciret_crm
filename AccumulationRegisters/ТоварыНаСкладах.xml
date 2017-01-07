@@ -30,6 +30,8 @@
 		<Properties>
 			<Name>ТоварыНаСкладах</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultListForm/>
+			<AuxiliaryListForm/>
 			<RegisterType>Balance</RegisterType>
 		</Properties>
 		<ChildObjects>

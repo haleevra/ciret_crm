@@ -18,10 +18,6 @@
 		<Properties>
 			<Name>ПолФизическогоЛица</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<DefaultListForm/>
-			<DefaultChoiceForm/>
-			<AuxiliaryListForm/>
-			<AuxiliaryChoiceForm/>
 		</Properties>
 		<ChildObjects/>
 	</Enum>

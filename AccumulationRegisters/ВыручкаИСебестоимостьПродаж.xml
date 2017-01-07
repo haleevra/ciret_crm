@@ -30,6 +30,8 @@
 		<Properties>
 			<Name>ВыручкаИСебестоимостьПродаж</Name>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultListForm/>
+			<AuxiliaryListForm/>
 			<RegisterType>Turnovers</RegisterType>
 		</Properties>
 		<ChildObjects>
