@@ -45,7 +45,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Академия Проф-ИТ</Vendor>
-			<Version>1.0.0.26</Version>
+			<Version>1.0.0.27</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>Version8_3_9</CompatibilityMode>

@@ -128,6 +128,7 @@
 							<v8:content>Группа общая информация</v8:content>
 						</v8:item>
 					</ToolTip>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
 					<ExtendedTooltip name="ГруппаОбщаяИнформацияExtendedTooltip" id="189"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаКодДатаРегистрации" id="88">
