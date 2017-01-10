@@ -11,10 +11,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПланФактныйАнализПродаж</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОтношенияС_ПК</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПланПродажПоКатегориям</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">4eb7c977-8967-4d96-8aa4-c326ecff0598</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтношенияС_НК_СК</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ЭлектронныйКаталог</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ИсполнениеМатрицы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.МаржаПоКлиентамСучетомБонусов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
