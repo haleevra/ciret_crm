@@ -90,6 +90,38 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="6e4975cc-9fce-4add-96f3-d8e74ffc2afc">
+				<Properties>
+					<Name>ЕдиницаДляОтчетов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9180593a-9e2b-4713-8fd0-1e14cf559d74">
+				<Properties>
+					<Name>КоэффициентЕдиницыДляОтчетов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b9a45144-c845-42f9-9ba2-c2bf3169aa7a">
+				<Properties>
+					<Name>ГруппаАналитическогоУчета</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГруппыАналитическогоУчетаНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="76632efd-27a5-446f-ac9e-57e5cb61f932">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.Номенклатура.ДополнительныеРеквизиты" category="TabularSection">

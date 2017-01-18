@@ -77,6 +77,34 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="b9838ef1-4a67-4aeb-babe-d6766169d9c4">
+				<Properties>
+					<Name>СуммаВыручкиБезНДС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="439763c7-d670-41bb-8f24-f541a0f31d4f">
+				<Properties>
+					<Name>СебестоимостьБезНДС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
 			<Dimension uuid="d11a8b59-d970-4645-8535-e55ff629b134">
 				<Properties>
 					<Name>АналитикаУчетаПоПартнерам</Name>
@@ -92,6 +120,60 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>cfg:CatalogRef.КлючиАналитикиУчетаНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="e0b6e1aa-b073-484b-b7bf-e3d2e9ced84e">
+				<Properties>
+					<Name>ВидЗапасов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыЗапасов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f24e2dd9-edb6-4926-b510-f9635508a02e">
+				<Properties>
+					<Name>ЗаказКлиента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="e45ffe2a-e249-4e37-8f88-56d5bab60313">
+				<Properties>
+					<Name>Менеджер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ac2ad024-5da8-40e2-9f3f-c78af6abf9d6">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="e1a87b8b-d86e-44bc-a1d5-f36e24f8b812">
+				<Properties>
+					<Name>ТипЗапасов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыЗапасов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="2a47b447-91db-4f79-aafc-56ffc0c14822">
+				<Properties>
+					<Name>ХозяйственнаяОперация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ХозяйственныеОперации</v8:Type>
 					</Type>
 				</Properties>
 			</Dimension>

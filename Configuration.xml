@@ -45,7 +45,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Академия Проф-ИТ</Vendor>
-			<Version>1.0.0.28</Version>
+			<Version>1.0.0.30</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>Version8_3_9</CompatibilityMode>
@@ -183,6 +183,8 @@
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>БазовыеПрава</Role>
 			<Role>ПолныеПрава</Role>
+			<CommonModule>CCRM_ОбщийМодульТорговыеТочки</CommonModule>
+			<CommonModule>УправлениеКонтактнойИнформацией</CommonModule>
 			<FunctionalOption>ИспользоватьПризнакРассмотрено</FunctionalOption>
 			<FunctionalOption>ИспользоватьПрочиеВзаимодействия</FunctionalOption>
 			<FunctionalOption>ОтветственныйВДокументах</FunctionalOption>
@@ -248,6 +250,10 @@
 			<Catalog>СостоянияПроцессов</Catalog>
 			<Catalog>ВидыСделокСКлиентами</Catalog>
 			<Catalog>СделкиСКлиентами</Catalog>
+			<Catalog>ВидыЗапасов</Catalog>
+			<Catalog>СерииНоменклатуры</Catalog>
+			<Catalog>ГруппыФинансовогоУчетаНоменклатуры</Catalog>
+			<Catalog>ГруппыАналитическогоУчетаНоменклатуры</Catalog>
 			<Document>СообщениеSMS</Document>
 			<Document>ЭлектронноеПисьмоИсходящее</Document>
 			<Document>ТелефонныйЗвонок</Document>
@@ -255,7 +261,6 @@
 			<Document>ЭлектронноеПисьмоВходящее</Document>
 			<Document>ЗапланированноеВзаимодействие</Document>
 			<Document>ПланПродажПоКатегориям</Document>
-			<Document>РеализацияТоваровУслуг</Document>
 			<DocumentJournal>Взаимодействия</DocumentJournal>
 			<Enum>СостоянияДокументаСообщениеSMS</Enum>
 			<Enum>СтатусыИсходящегоЭлектронногоПисьма</Enum>
@@ -272,12 +277,14 @@
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>КомпанияЧастноеЛицо</Enum>
 			<Enum>СпособыФормированияСегментов</Enum>
+			<Enum>ТипыЗапасов</Enum>
+			<Enum>РазделыУчетаСебестоимостиТоваров</Enum>
 			<Report>СводПоПотенциалу</Report>
 			<Report>ПланФактныйАнализПродаж</Report>
 			<Report>ОтношенияС_НК_СК</Report>
 			<Report>ЭлектронныйКаталог</Report>
 			<Report>ИсполнениеМатрицы</Report>
-			<Report>МаржаПоКлиентамСучетомБонусов</Report>
+			<Report>МаржаПоКлиентамСУчетомБонусов</Report>
 			<DataProcessor>CCRM_Календарь</DataProcessor>
 			<DataProcessor>Карта</DataProcessor>
 			<DataProcessor>ОтношенияС_ПК</DataProcessor>
@@ -289,6 +296,11 @@
 			<InformationRegister>ДанныеПроизводственногоКалендаря</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<InformationRegister>СтатистикаСделокСКлиентами</InformationRegister>
+			<InformationRegister>ПартнерыСегмента</InformationRegister>
+			<InformationRegister>НоменклатураСегмента</InformationRegister>
+			<InformationRegister>АналитикаУчетаНоменклатуры</InformationRegister>
+			<InformationRegister>АналитикаУчетаПоПартнерам</InformationRegister>
+			<InformationRegister>СтоимостьТоваров</InformationRegister>
 			<AccumulationRegister>ВыручкаИСебестоимостьПродаж</AccumulationRegister>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>

@@ -5,7 +5,7 @@
 		<dataSourceType>Local</dataSourceType>
 	</dataSource>
 	<dataSet xsi:type="DataSetQuery">
-		<name>МаржаПоКлиентамСучетомБонусов</name>
+		<name>МаржаПоКлиентамСУчетомБонусов</name>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>АналитикаУчетаНоменклатуры</dataPath>
 			<field>АналитикаУчетаНоменклатуры</field>
@@ -549,23 +549,11 @@
 			</useRestriction>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Договор</dataPath>
-			<field>Договор</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Соглашение</dataPath>
-			<field>Соглашение</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ХозяйственнаяОперация</dataPath>
 			<field>ХозяйственнаяОперация</field>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>АналитикаУчетаНаборов</dataPath>
-			<field>АналитикаУчетаНаборов</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ГруппаАналитическогоУчета</dataPath>
@@ -609,14 +597,6 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>НаправлениеДеятельностиКонтрагента</dataPath>
-			<field>НаправлениеДеятельностиКонтрагента</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>НаправлениеДеятельностиНоменклатуры</dataPath>
-			<field>НаправлениеДеятельностиНоменклатуры</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Бонус</dataPath>
 			<field>Бонус</field>
 			<title xsi:type="v8:LocalStringType">
@@ -655,6 +635,26 @@
 					<v8:content>Выручка без бонуса</v8:content>
 				</v8:item>
 			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АналитикаУчетаНаборов</dataPath>
+			<field>АналитикаУчетаНаборов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаправлениеДеятельностиКонтрагента</dataPath>
+			<field>НаправлениеДеятельностиКонтрагента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаправлениеДеятельностиНоменклатуры</dataPath>
+			<field>НаправлениеДеятельностиНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Соглашение</dataPath>
+			<field>Соглашение</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
@@ -1768,7 +1768,7 @@
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>Покупатель</dcsset:field>
+						<dcsset:field>Партнер</dcsset:field>
 						<dcsset:groupType>Hierarchy</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
